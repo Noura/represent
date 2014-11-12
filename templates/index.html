@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block body %}
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <h1>represent</h1>
+        </div>
+    </div>
+    <div class="row">
+
+        {% for tag, person in people.iteritems() %}
+            <div class="col-xs-4 col-md-3">
+                <div class="thumbnail" alt="{{person.name}}">
+                    <a href="#" class="thumbnail-inner">
+                        <img class="{{tag}} person" src="{{person.img_src}}">
+                        <div class="caption">
+                            {{ person.name }}
+                        </div>
+                    </a>
+                </div>
+            </div>
+        {% endfor %}
+
+    </div>
+</div>
+{% endblock body %}
