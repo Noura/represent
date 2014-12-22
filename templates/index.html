@@ -10,13 +10,14 @@
     </div>
     <div class="row">
 
-        {% for tag, person in people.iteritems() %}
+        {% for p in people %}
             <div class="col-xs-4 col-md-3">
-                <div class="thumbnail" alt="{{person.name}}">
-                    <a href="#" class="thumbnail-inner">
-                        <img class="{{tag}} person" src="{{person.img_src}}">
+                <div class="thumbnail" alt="{{p.name}}">
+                    <a href="{{p.url}}" class="thumbnail-inner">
+                        <img class="person" src="{{p.img_src}}">
+
                         <div class="caption">
-                            {{ person.name }}
+                            {{ p.name }}
                         </div>
                     </a>
                 </div>

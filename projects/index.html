@@ -2,7 +2,7 @@
     <head>
         <title>Represent</title>
 
-        {% block css %}
+        
           <!-- Use this when you are hosting for real
             <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
           -->
@@ -10,7 +10,7 @@
             <link rel="stylesheet" href="/static/css/bootstrap.min.css">
           <!-- Always use this -->
             <link rel="stylesheet" href="/static/css/represent.css">
-        {% endblock css %}
+        
     </head>
     <body>
 
@@ -30,20 +30,25 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="navbar-collapse">
                     <ul class="nav navbar-nav">
-                      {% for page in pages %}
-                        <li class="{% if page.name == active_page %} active {%endif%}">
-                        <a href="/{{ page.path }}">{{ page.name }}</a>
+                      
+                        <li class="">
+                        <a href="/">people</a>
                         </li>
-                      {% endfor %}
+                      
+                        <li class=" active ">
+                        <a href="/projects">projects</a>
+                        </li>
+                      
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
         </nav>
 
-        {% block body %}
-        {% endblock body %}
+        
+yo projects here
 
-        {% block js %}
+
+        
           <!-- Use this when you are hosting for real
             <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script> 
             <script type="text/javascript" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script> 
@@ -51,6 +56,6 @@
           <!-- Use this when you are testing offline -->
             <script type="text/javascript" src="/static/js/jquery.min.js"></script>
             <script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
-        {% endblock js %}
+        
     </body>
 </html>

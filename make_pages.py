@@ -1,9 +1,25 @@
 #!/usr/bin/env python
 import os, os.path, shutil, codecs, sys, jinja2
 
-import data as DATA
+import data
+
+pages = [
+    {
+        'name': 'people',
+        'path': '',
+        'template': 'index.html',
+    },
+    {
+        'name': 'projects',
+        'path': 'projects',
+        'template': 'projects.html',
+    },
+]
+
 ctx = {
-    'people': DATA.people,
+    'pages': pages,
+    'people': data.people,
+    'projects': data.projects,
 }
 
 def main():
@@ -11,9 +27,14 @@ def main():
     loader = jinja2.FileSystemLoader(os.path.join(here, 'templates'))
     templates = jinja2.Environment(loader=loader)
 
-    tem = templates.get_template('index.html')
-    with codecs.open(os.path.join(here, 'index.html'), 'w') as out:
-        out.write(tem.render(**ctx))
+    for page in pages:
+        tem = templates.get_template(page['template'])
+        ctx['active_page'] = page['name']
+        out_dir = os.path.join(here, page['path'])
+        if page['path'] and not os.path.exists(page['path']):
+            os.makedirs(out_dir)
+        with codecs.open(os.path.join(out_dir, 'index.html'), 'w') as out:
+            out.write(tem.render(**ctx))
 
 if __name__ == '__main__':
     main()
