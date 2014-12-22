@@ -1,0 +1,93 @@
+body {
+    background-color: rgb(50, 50, 50);
+}
+body,
+.thumbnail.person .caption {
+    color: rgb(250, 250, 250);
+}
+
+.navbar {
+    background-color: rgb(100, 100, 100);
+    border-width: 0;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav>li>a {
+    color: rgb(230, 230, 230);
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-nav>li>a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    background-color: rgb(150,150,150);
+    color: rgb(255,255,255);
+}
+
+img.project {
+    max-width: 100%;
+}
+
+.project.row {
+    padding-bottom: 1em;
+}
+
+a {
+    color: inherit;
+    text-decoration: underline;
+}
+.navbar a {
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+}
+
+.jumbotron.represent-defn {
+    padding: 15px 0 20px;
+    margin-top: 50px; /* because of navbar-fixed-top */
+    background-color: rgb(125, 125, 125);
+}
+
+.jumbotron.represent-defn h1 {
+    margin-top: 0;
+    font-size: 30px;
+    margin-bottom: 5px;
+    font-weight: 100;
+    letter-spacing: .1em;
+}
+
+.jumbotron.represent-defn p.grammar {
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+
+.represent-defn ol {
+    list-style-type: lower-roman;
+}
+
+.thumbnail {
+    min-height: 162px; /* TODO make this less hacky */
+    border-width: 0;
+    padding: 0;
+    border-radius: 0;
+    background-color: transparent;
+}
+
+.thumbnail>img,
+.thumbnail a>img {
+    border-width: 1px;
+    border-color: rgb(150,150,150);
+    border-style: solid;
+    borer-radius: 2px;
+}
+
+.thumbnail.person .caption {
+    text-align: center;
+}
+
+.navbar-fixed-top {
+    box-shadow: 0 2px 5px rgba(0,0,0,.3);
+}
