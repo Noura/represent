@@ -1,13 +1,18 @@
 body {
-    background-color: rgb(50, 50, 50);
+    background-color: black;
 }
 body,
 .thumbnail.person .caption {
     color: rgb(250, 250, 250);
 }
 
+.container,
+.jumbotron .container {
+    max-width: 800px;
+}
+
 .navbar {
-    background-color: rgb(100, 100, 100);
+    background-color: black;
     border-width: 0;
 }
 
@@ -48,24 +53,28 @@ a:hover {
 .jumbotron.represent-defn {
     padding: 15px 0 20px;
     margin-top: 50px; /* because of navbar-fixed-top */
-    background-color: rgb(125, 125, 125);
+    background-color: black;
+    font-weight: 100;
+    font-size: 18px;
+    letter-spacing: .05em;
 }
 
 .jumbotron.represent-defn h1 {
     margin-top: 0;
-    font-size: 30px;
-    margin-bottom: 5px;
-    font-weight: 100;
-    letter-spacing: .1em;
+    font-size: 70px;
+    margin-bottom: 15px;
+    font-weight: 200;
+    letter-spacing: .05em;
 }
 
 .jumbotron.represent-defn p.grammar {
     font-size: 1em;
-    margin-bottom: 5px;
+    margin-bottom: 35px;
+    font-size:15px;
 }
 
 .represent-defn ol {
-    list-style-type: lower-roman;
+    list-style-type: decimal;
 }
 
 .thumbnail {
@@ -74,14 +83,15 @@ a:hover {
     padding: 0;
     border-radius: 0;
     background-color: transparent;
+    margin: 20px;
 }
 
 .thumbnail>img,
-.thumbnail a>img {
+.thumbnail a>img,
+img.project {
     border-width: 1px;
     border-color: rgb(150,150,150);
     border-style: solid;
-    borer-radius: 2px;
 }
 
 .thumbnail.person .caption {
