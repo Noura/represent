@@ -1,14 +1,18 @@
 #!/usr/bin/env python
 import os, os.path, shutil, codecs, sys, jinja2
 
-
 import data
 
 pages = [
     {
-        'name': 'people',
+        'name': 'represent',
         'path': '',
         'template': 'index.html',
+    },
+    {
+        'name': 'people',
+        'path': 'people',
+        'template': 'people.html',
     },
     {
         'name': 'projects',

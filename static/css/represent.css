@@ -1,5 +1,8 @@
 body {
-    background-color: black;
+    background-color: rgb(10,10,10);
+}
+#sidebar-wrapper {
+    background: rgb(50,50,50);
 }
 body,
 .thumbnail.person .caption {
@@ -11,24 +14,24 @@ body,
     max-width: 800px;
 }
 
-.navbar {
-    background-color: black;
-    border-width: 0;
+body {
+    padding-top: 70px;
+}
+@media(min-width:769px) {
+    .mobile-only {
+        display: none;
+    }
+    body {
+        padding-top: 0;
+    }
 }
 
-.navbar-default .navbar-brand,
-.navbar-default .navbar-nav>li>a {
-    color: rgb(230, 230, 230);
+.sidebar-nav li.active a {
+    color: white;
 }
 
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-nav>li>a:hover {
-    color: rgb(255, 255, 255);
-}
-
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
-    background-color: rgb(150,150,150);
-    color: rgb(255,255,255);
+.navbar-inverse .navbar-toggle {
+    border-color: white;
 }
 
 img.project {
@@ -59,12 +62,12 @@ a:hover {
     letter-spacing: .05em;
 }
 
-.jumbotron.represent-defn h1 {
+h1.represent {
     margin-top: 0;
     font-size: 70px;
     margin-bottom: 15px;
     font-weight: 200;
-    letter-spacing: .05em;
+    letter-spacing: .08em;
 }
 
 .jumbotron.represent-defn p.grammar {
@@ -92,6 +95,10 @@ img.project {
     border-width: 1px;
     border-color: rgb(150,150,150);
     border-style: solid;
+}
+
+img.project {
+    margin-top: 25px;
 }
 
 .thumbnail.person .caption {

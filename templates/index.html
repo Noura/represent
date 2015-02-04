@@ -2,23 +2,35 @@
 
 {% block body %}
 
-<div class="container">
-    <div class="row">
-
-        {% for p in people %}
-            <div class="col-xs-4">
-                <div class="thumbnail person" alt="{{p.name}}">
-                    <a href="{{p.url}}" class="thumbnail-inner">
-                        <img src="{{p.img_src}}">
-
-                        <div class="caption">
-                            {{ p.name }}
-                        </div>
-                    </a>
-                </div>
-            </div>
-        {% endfor %}
-
-    </div>
+<div class="row">
+  <div class="col-xs-12">
+    <h1 class="represent">represent</h1>
+    <p class="grammar">
+    <!-- TODO actual dot html character -->
+    [&nbsp;re-pre &dot; sent&nbsp;] verb (&nbsp;used with object&nbsp;)
+    </p>
+    <ol>
+      <li>
+      <a href="http://awaaz.de">
+        be entitled or appointed to act or speak for someone,
+      </a>
+      </li>
+      <li>
+      <a href="http://captricity.com">
+        constitute; amount to,
+      </a>
+      </li>
+      <li>
+      <a href="http://localground.org">
+        showing respect to where you come from,
+      </a>
+      </li>
+      <li>
+      <a href="/">
+        be a good example to the others of your group.
+      </a>
+      </li>
+    </ol>
+  </div>
 </div>
 {% endblock body %}

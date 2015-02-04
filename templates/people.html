@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block body %}
+
+<div class="row">
+
+  <div class="col-xs-12">
+    <h1 class="represent">people</h1>
+  </div>
+
+  {% for p in people %}
+  <div class="col-xs-4">
+    <div class="thumbnail person" alt="{{p.name}}">
+      <a href="{{p.url}}" class="thumbnail-inner">
+        <img src="{{p.img_src}}">
+
+        <div class="caption">
+          {{ p.name }}
+        </div>
+      </a>
+    </div>
+  </div>
+  {% endfor %}
+
+</div>
+
+{% endblock body %}
