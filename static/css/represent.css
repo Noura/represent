@@ -21,8 +21,9 @@ body,
 .navbar-inverse .navbar-toggle {
     border-color: white;
 }
-.navbar-inverse li.active {
-    background-color: red;
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:hover {
+    background-color: #555;
 }
 
 img.project {
