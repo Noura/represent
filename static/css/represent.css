@@ -21,6 +21,9 @@ body,
 .navbar-inverse .navbar-toggle {
     border-color: white;
 }
+.navbar-inverse li.active {
+    background-color: red;
+}
 
 img.project {
     width: 100%;
