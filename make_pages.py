@@ -10,14 +10,14 @@ pages = [
         'template': 'index.html',
     },
     {
-        'name': 'people',
-        'path': 'people',
-        'template': 'people.html',
-    },
-    {
         'name': 'projects',
         'path': 'projects',
         'template': 'projects.html',
+    },
+    {
+        'name': 'publications',
+        'path': 'publications',
+        'template': 'publications.html',
     },
 ]
 
@@ -25,6 +25,7 @@ ctx = {
     'pages': pages,
     'people': data.people,
     'projects': data.projects,
+    'publications': data.publications,
 }
 
 def main():

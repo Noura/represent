@@ -59,3 +59,9 @@ projects = [
         'url': 'http://www.google.com',
     },
 ]
+
+publications = [
+    "Author, A., Author, B. (2014). Title. Journal. Etc.",
+    "Author, A., Author, B. (2014). Title. Journal. Etc.",
+    "Author, A., Author, B. (2014). Title. Journal. Etc.",
+]
