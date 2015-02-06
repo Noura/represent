@@ -9,48 +9,40 @@
   </head>
   <body>
 
+    <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
 
-      <div class="row">
-        <nav class="navbar navbar-inverse navbar-fixed-top">
-          <div class="container-fluid">
-
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mobile-menu">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-            </div>
-
-            <div class="collapse navbar-collapse" id="mobile-menu">
-              <ul class="nav navbar-nav">
-                {% for page in pages %}
-                <li {% if page.name == active_page %}class="active"{% endif %}>
-                <a href="/{{page.path}}">
-                  {{page.name}}
-                  {% if page.name == active_page %}
-                  <span class="sr-only">(current)</span>
-                  {% endif %}
-                </a>
-                </li>
-                {% endfor %}
-              </ul>
-            </div>
-
-          </div>
-        </nav>
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mobile-menu">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
       </div>
 
-      <div class="row">
-        <div class="col-xs-12">
-          {% block body %}
-
-          {% endblock body %}
-        </div>
+      <div class="collapse navbar-collapse" id="mobile-menu">
+        <ul class="nav navbar-nav">
+          {% for page in pages %}
+          <li {% if page.name == active_page %}class="active"{% endif %}>
+          <a href="/{{page.path}}">
+            {{page.name}}
+            {% if page.name == active_page %}
+            <span class="sr-only">(current)</span>
+            {% endif %}
+          </a>
+          </li>
+          {% endfor %}
+        </ul>
       </div>
 
+    </div>
+    </nav>
+
+    <div class="container">
+      {% block body %}
+
+      {% endblock body %}  
     </div>
 
     {% block js %}

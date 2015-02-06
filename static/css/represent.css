@@ -8,8 +8,11 @@ body,
     color: rgb(250, 250, 250);
 }
 
-.container {
+.container,
+.container-fluid {
     max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .navbar-inverse .navbar-toggle {
