@@ -75,6 +75,8 @@ people = [
     },
 ]
 
+# TODO include URLs but handle the case where there isn't one
+
 projects = [
     {
         'name': 'Project',
