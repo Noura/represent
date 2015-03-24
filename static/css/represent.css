@@ -114,5 +114,6 @@ img.project {
 .thumbnail.person img {
     -webkit-filter: grayscale(1);
     filter: grayscale(1);
+    max-height: 183px; /* TODO make this responsive */
 }
 

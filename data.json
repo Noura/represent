@@ -1,0 +1,257 @@
+{
+    "alumni":[
+        {
+            "img_src":"",
+            "name":"Neil Patel",
+            "url":"http://hci.stanford.edu/neilp/"
+        },
+        {
+            "img_src":"",
+            "name":"Brian DeRenzi",
+            "url":"http://www.bderenzi.com/"
+        },
+        {
+            "img_src":"",
+            "name":"Yaw Anokwa",
+            "url":"http://anokwa.com/"
+        },
+        {
+            "img_src":"",
+            "name":"Kuang Chen",
+            "url":"http://www.cs.berkeley.edu/~kuangc/"
+        },
+        {
+            "img_src":"",
+            "name":"Neha Kumar",
+            "url":"http://nehakumar.org/"
+        },
+        {
+            "img_src":"",
+            "name":"Kurtis Heimerl",
+            "url":"http://www.cs.berkeley.edu/~kheimerl/"
+        },
+        {
+            "img_src":"",
+            "name":"Paul Goodman",
+            "url":""
+        },
+        {
+            "img_src":"",
+            "name":"Ariel Chait",
+            "url":""
+        },
+        {
+            "img_src":"",
+            "name":"Jon Katz",
+            "url":""
+        },
+        {
+            "img_src":"",
+            "name":"Yael Schwartzman",
+            "url":"http://www.yaelschwartzman.com/"
+        }
+    ],
+    "current_projects":[
+        {
+            "desc":"Crowd-sourcing Land Access for Migrant Farmers",
+            "img_src":"/static/img/projects/ALBA_Berries.jpg",
+            "name":"Participatory Mapping for Agriculture",
+            "url":""
+        },
+        {
+            "desc":"Mapping and Data Visualization Tools for Youth",
+            "img_src":"",
+            "name":"Local Ground",
+            "url":"http://localground.org"
+        }
+    ],
+    "members":[
+        {
+            "img_src":"/static/img/people/noura.jpg",
+            "name":"Noura Howell",
+            "url":"http://nourahowell.com"
+        },
+        {
+            "img_src":"/static/img/people/zack.png",
+            "name":"Zack MacHardy",
+            "url":"http://www.eecs.berkeley.edu/~zmmachar/"
+        },
+        {
+            "img_src":"/static/img/people/Adam_weeding.jpg",
+            "name":"Adam Calo",
+            "url":"http://ourenvironment.berkeley.edu/people_profiles/adam-calo/"
+        },
+        {
+            "img_src":"/static/img/people/meena.jpg",
+            "name":"Meena Natarajan",
+            "url":"http://www.mee-na.com/"
+        },
+        {
+            "img_src":"/static/img/people/ffff.jpeg",
+            "name":"nick merrill",
+            "url":"http://cosmopol.is"
+        },
+        {
+            "img_src":"/static/img/people/sepehr.jpg",
+            "name":"Sepehr Vakil",
+            "url":"http://rcmeberkeley.com/content/sepehr"
+        },
+        {
+            "img_src":"/static/img/people/vibhore.png",
+            "name":"Vibhore Vardhan",
+            "url":"http://ischool.berkeley.edu/people/students/vibhorevardhan"
+        },
+        {
+            "img_src":"",
+            "name":"Sarah Van Wart",
+            "url":"http://people.ischool.berkeley.edu/~vanwars/"
+        },
+        {
+            "img_src":"",
+            "name":"Robert On",
+            "url":""
+        },
+        {
+            "img_src":"",
+            "name":"Kathryn Lanouette",
+            "url":""
+        },
+        {
+            "img_src":"",
+            "name":"Ryan Petteway",
+            "url":""
+        },
+        {
+            "img_src":"/static/img/people/aparnaSquare.jpg",
+            "name":"Aparna Dhinakaran",
+            "url":"www.aparnadhinakaran.com"
+        },
+        {
+            "img_src":"/static/img/people/tsion.jpg",
+            "name":"Tsion Behailu",
+            "url":"www.tsionbehailu.me"
+        },
+        {
+            "img_src":"",
+            "name":"Lucio Lopez",
+            "url":""
+        },
+        {
+            "img_src":"",
+            "name":"Chaitanya",
+            "url":""
+        }
+    ],
+    "old_projects":[
+        {
+            "desc":"Turning Paper Forms into Data using the Cloud and Crowd",
+            "img_src":"",
+            "name":"Shreddr",
+            "url":"http://captricity.com"
+        },
+        {
+            "desc":"Giving Communities a Voice using Voice Social Media",
+            "img_src":"",
+            "name":"Avaaj Otalo",
+            "url":"http://awaaz.de"
+        },
+        {
+            "desc":"Improving Monitoring Capacity at Small Farming Cooperatives",
+            "img_src":"",
+            "name":"Digital ICS",
+            "url":"http://acopio.com"
+        },
+        {
+            "desc":"Mobile Tools for Community Health Workers",
+            "img_src":"",
+            "name":"Commcare",
+            "url":"http://www.commcarehq.org/home/"
+        },
+        {
+            "desc":"Automated  Protocols for Diagnosis of Childhood Illnesses",
+            "img_src":"",
+            "name":"E-IMCI",
+            "url":"http://www.dimagi.com/mobile-e-imci/"
+        },
+        {
+            "desc":"Small-scale Community Cellular Networks",
+            "img_src":"",
+            "name":"VBTS",
+            "url":"https://www.endaga.com/"
+        },
+        {
+            "desc":"Equitable Sharing using Multiple Mice for  Education",
+            "img_src":"",
+            "name":"Metamouse",
+            "url":"http://sourceforge.net/projects/metamouse/"
+        },
+        {
+            "desc":"Grading CS Exams with a Crowd-sourcing Vending Machine",
+            "img_src":"",
+            "name":"Umati",
+            "url":"http://represent.berkeley.edu/umati/"
+        },
+        {
+            "desc":"Adaptive Forms for Improving Data Entry Accuracy and Efficiency",
+            "img_src":"",
+            "name":"Usher",
+            "url":"https://code.google.com/p/usher-forms/"
+        }
+    ],
+    "publications":[
+        "Calo, Adam. 2013. \u201cCuba Caught At Agricultural Crossroads.\u201d <i>Earth Island Journal</i>, November. http://www.earthisland.org/journal/index.php/elist/eListRead/cuba_caught_at_agricultural_crossroads/.",
+        "Calo, Adam. 2014. \u201cAn App for That: Technology as a Solution to Our Broken Food System?\u201d <i>Civil Eats</i>, June 27. http://civileats.com/2014/06/27/an-app-for-that-technology-as-a-solution-to-our-broken-food-system/.",
+        "Adam Calo's Department Blog Post \"Making Research Relevant: Narratives, Complexity, and the Hubris of Objectivity\" http://ourenvironment.berkeley.edu/2015/01/making-research-relevant/",
+        "Neil Patel, Krishna Savani, Paresh Dave, Kapil Shah, Scott R. Klemmer and Tapan S. Parikh, <a href=\"papers/1054-2951-1-PB.pdf\">Power to the Peers: Authority of Source Effects for a Voice-based Agricultural Information Service in Rural India</a>, Information Technologies and International Development (ITID), Vol. 9, No. 2, June 2013 ",
+        "Anand Kulkarni, Philipp Gutheim, Prayag Narula, David Rolnitzky, Tapan Parikh and Bjoern Hartmann, <a href=\"papers/kulkarni-mobileworks-ieee2012.pdf\">MobileWorks: Designing for Quality in a Managed Crowdsourcing Architecture</a>, IEEE Internet Computing, September-October 2012",
+        "Brian DeRenzi, Gaetano Borriello, Jonathan Jackson, Vikram Sheel Kumar, Tapan S. Parikh, Pushwaz Virk and Neal Lesh, <a href=\"http://onlinelibrary.wiley.com/doi/10.1002/msj.20256/abstract\">Mobile Phone Tools for Field-Based Health care Workers in Low-Income Countries</a>, Mount Sinai Journal of Medicine, 78: 406\u2013418, May 2011",
+        "Kuang Chen, Harr Chen, Neil Conway, Joseph M. Hellerstein and Tapan S. Parikh, <a href=\"papers/tkde-usher.pdf\">Usher: Improving Data Quality with Dynamic Forms</a>, IEEE Transactions on Knowledge and Data Engineering, October 2010",
+        "Tapan S. Parikh, <a href=\"papers/p54-parikh.pdf\">Engineering Rural Development: Improving the Performance and Accountability of Civil Society Organizations</a>, Communications of the ACM, Vol. 52, No. 1, January 2009",
+        "Syed Ibrahim Ghaznavi, Kurtis Heimerl, Umar Muneer, Abdullah Hamid, Kashif Ali, Tapan Parikh, Umar Saif, <a href=\"papers/rbs-dev14.pdf\">Rescue Base Station</a>, ACM Symposium on Computing for Development (DEV), December 5-6, 2014, San Jose, CA",
+        "Sarah Van Wart, Sepehr Vakil and Tapan S. Parikh, <a href=\"papers/iti120-vanwart.pdf\">Apps for Social Justice: Motivating Computer Science Learning with Design and Real-World Problem Solving</a>, Conference on Innovation and Technology in Computer Science Education (ITiCSE), June 23-24, 2014, Uppsala, Sweden ",
+        "Kurtis Heimerl, Shaddi Hasan, Kashif Ali, Tapan Parikh and Eric Brewer, <a href=\"papers/dev4.pdf\">An Experiment in Reducing Cellular Base Station Power Draw with Virtual Coverage</a>, ACM Symposium on Computing for Development (DEV), December 6-7, 2013, Cape Town, South Africa",
+        "Meena Natarajan and Tapan Parikh, <a href=\"papers/p143-natarajan.pdf\">Understanding Barriers to Information Access and Disclosure for HIV+ Women</a>, International Conference on Information and Communication Technologies and Development (ICTD), December 7-10, 2013, Cape Town, South Africa",
+        "Kurtis Heimerl, Shaddi Hasan, Kashif Ali, Eric Brewer and Tapan Parikh, <a href=\"papers/p2-heimerl.pdf\">Local, Sustainable, Small-Scale Cellular Networks</a>, International Conference on Information and Communication Technologies and Development (ICTD), December 7-10, 2013, Cape Town, South Africa",
+        "Neha Kumar and Tapan S. Parikh, <a href=\"papers/kumar-materiality-chi2013.pdf\">Mobiles, Music and Materiality</a>, ACM Conference on Computer-Human Interaction (CHI), April 27-May 2, 2013, Paris, France",
+        "Kurtis Heimerl, Brian Gawalt, Kuang Chen, Tapan S. Parikh and Bjoern Hartmann, <a href=\"papers/heimerl-umati-chi2012.pdf\">Communitysourcing: Engaging Local Crowds to Perform Expert Work Via Physical Kiosks</a>, ACM Conference on Computer-Human Interaction (CHI), May 5-10, 2012, Austin, TX, <i>Best Paper Award</i>",
+        "Neil Patel, Krishna Savani, Paresh Dave, Kapil Shah, Scott R. Klemmer and Tapan S. Parikh, <a href=\"papers/p169-patel.pdf\">Power to the Peers: Authority of Source Effects for a Voice-based Agricultural Information Service in Rural India</a>, International Conference on Information and Communication Technologies and Development (ICTD), March 12-15, 2012, Atlanta, GA  ",
+        "Brian DeRenzi, Benjamin Birnbaum, Leah Findlater, Joachim Mangilima, Jonathan Payne, Tapan Parikh, Gaetano Borriello and Neal Lesh, <a href=\"papers/p25-derenzi.pdf\">Improving Community Health Worker Performance through Automated SMS</a>, International Conference on Information and Communication Technologies and Development (ICTD), March 12-15, 2012, Atlanta, GA ",
+        "Yaw Anokwa, Nyoman Ribeka, Tapan Parikh, Gaetano Borriello and Martin C. Were, <a href=\"papers/p13-anokwa.pdf\">Design of a Phone-Based Clinical Decision Support System for Resource-Limited Settings</a>, International Conference on Information and Communication Technologies and Development (ICTD), March 12-15, 2012, Atlanta, GA ",
+        "Kuang Chen, Akshay Kumar, Yoriyasu Yano, Joseph M. Hellerstein and Tapan S. Parikh, <a href=\"papers/dev12-shreddr.pdf\">Shreddr: Pipelined Paper Digitization for Low-resource Organizations</a>, ACM Symposium on Computing for Development (DEV), March 11-12, 2012, Atlanta, GA",
+        "Neha Kumar, Gopal Singh and Tapan Parikh, <a href=\"papers/kumar-chi2011.pdf\">Folk Music in India goes Digital</a>, ACM Conference on Computer-Human Interaction (CHI), May 7-12, 2011, Vancouver, Canada",
+        "Kuang Chen, Joseph M. Hellerstein and Tapan S. Parikh, <a href=\"papers/cidr11-first_mile.pdf\">Data in the First Mile</a>, Conference on Innovative Data Systems Research (CIDR), January 9-12, 2011, Asilomar, CA, <i>Runner-up, Best Paper Award, Outrageous Ideas and Vision Track</i>",
+        "Sarah Van Wart, K. Joyce Tsai and Tapan S. Parikh, <a href=\"papers/localground_dev10.pdf\">Local Ground: A Paper-Based Toolkit for Documenting Local Geo-spatial Knowledge</a>, ACM Symposium on Computing for Development (DEV), December 17-18, 2010, London, UK",
+        "Kurtis Heimerl, Janani Vasudev, Kelly Buchanan, Tapan Parikh and Eric Brewer, <a href=\"papers/mm_dev10.pdf\">A Case Study on Designing Interfaces for Multiple Users in Developing Regions</a>, ACM Symposium on Computing for Development (DEV), December 17-18, 2010, London, UK",
+        "Kurtis Heimerl, Janani Vasudev, Kelly Buchanan, Tapan Parikh and Eric Brewer, <a href=\"papers/mm_ictd10.pdf\">Metamouse: Improving Multi-user Sharing of Existing Educational Applications</a>, International Conference on Information and Communication Technologies and Development (ICTD), December 13-16, 2010, London, UK",
+        "Kuang Chen, Joseph M. Hellerstein and Tapan S. Parikh, <a href=\"papers/uist10-adaptive_entry.pdf\">Designing Adaptive Feedback for Improving Data Entry Accuracy</a>, ACM Symposium on User Interface Software and Technology (UIST), October 3-6, 2010, New York, NY",
+        "Neil Patel, Deepti Chittamuru, Anupam Jain, Paresh Dave and Tapan S. Parikh, <a href=\"papers/pap0310-patel.pdf\">Avaaj Otalo: A Field Study of an Interactive Voice Forum for Small Farmers in Rural India</a>, ACM Conference on Computer-Human Interaction (CHI), April 10-15, 2010, Atlanta, GA, <i>Best Paper Award</i>",
+        "Kuang Chen, Harr Chen, Neil Conway, Joseph M. Hellerstein and Tapan S. Parikh, <a href=\"papers/ICDE10_conf_full_646.pdf\">Usher: Improving Data Quality With Dynamic Forms</a>, IEEE International Conference on Data Engineering (ICDE), March 1-6, 2010, Long Beach, CA, <i>Best Student Paper Award</i>",
+        "Neil Patel, Sheetal Agarwal, Nitendra Rajput, Amit Nanavati, Paresh Dave and Tapan S. Parikh, <a href=\"papers/note0202-patel.pdf\">Comparative Study of Speech and Dialed Input Voice Interfaces in Rural India</a>, Note, ACM Conference on Computer-Human Interaction (CHI), April 6-9, 2009, Boston, MA",
+        "Brian DeRenzi, Neal Lesh, Tapan Parikh, Clayton Sims, Marc Mitchell, Werner Maokola, Mwajuma Chemba, Yuna Hamisi, David Schellenberg and Gaetano Borriello, <a href=\"papers/chi1104-bderenzi.pdf\">e-IMCI: Improving     Pediatric Health Care in Low-Income Countries</a>, ACM Conference on Computer-Human Interaction (CHI), April 7-10, 2008, Florence, Italy",
+        "Sarah Van Wart and Tapan S. Parikh, <a href=\"papers/ICLS-LocalGround.pdf\">Local Ground: A Toolkit Supporting Metarepresentational Competence in Data Science</a>, Poster, International Conference of the Learning Sciences (ICLS), June 23-27, 2014, Boulder, Colorado ",
+        "Sarah Van Wart and Tapan S. Parikh, <a href=\"papers/vanwart-localground-geohci2013.pdf\">Increasing Youth and Community Agency in GIS</a>, GeoHCI Workshop, April 27-28, 2013, Paris, France",
+        "Anand Kulkarni, Philipp Gutheim, Prayag Narula, David Rolnitzky, Tapan Parikh and Bjoern Hartmann, <a href=\"papers/5308-22730-1-PB.pdf\">MobileWorks: Designing for Quality in a Managed Crowdsourcing Architecture</a>, Extended Abstract, Human Computation Workshop (HCOMP), July 23, 2012, Toronto, Canada",
+        "Emily Kumpel, Anurag Sridharan, Thejo Kote, Ari Olmos and Tapan S. Parikh, <a href=\"papers/nsdr12-final13.pdf\">NextDrop: Using Human Observations to Track Water Distribution</a>, USENIX/ACM Workshop on Networked Systems for Developing Regions (NSDR), June 15, 2012, Boston, MA",
+        "Kurtis Heimerl, Brian Gawalt, Kuang Chen, Tapan S. Parikh, Bjoern Hartmann, <a href=\"papers/\">Communitysourcing: Engaging Local Crowds to Perform Expert Work Via Physical Kiosks</a>, Demo, ACM Conference on Computer-Human Interaction (CHI), May 5-10, 2012, Austin, TX",
+        "Neil Patel, Scott R. Klemmer and Tapan S. Parikh, <a href=\"papers/uist2011_patel.pdf\">An Asymmetric Communications Platform for Knowledge Sharing using Cheap Mobile Phones</a>, Demo, ACM Symposium on User Interface Software and Technology (UIST), October 16-19, 2011, Santa Barbara, CA",
+        "Tapan S. Parikh and Kuang Chen, <a href=\"papers/vldb_globalhealth.pdf\">Data Management for Meeting Global Health Challenges</a>, Panel Discussion, International Conference on Very Large Databases (VLDB), August 29-September 3, 2011, Seattle, WA",
+        "Neha Kumar and Tapan S. Parikh, <a href=\"papers/wip247-kumar.pdf\">New Media and Folk Music in Rural India</a>, Work in Progress, ACM Conference on Computer-Human Interaction (CHI), April 10-15, 2010, Atlanta, GA",
+        "Tad Hirsch, Phoebe Sengers, Eli Blevis, Richard Beckwith and Tapan Parikh, <a href=\"papers/sustainable_food_panel.pdf\">Making Food, Producing Sustainability</a>, Panel Discussion, ACM Conference on Computer-Human Interaction (CHI), April 10-15, 2010, Atlanta, GA",
+        "Matthew Kam, Susan Dray, Kentaro Toyama, Gary Marsden, Tapan Parikh and Ed Cutrell, <a href=\"papers/pnl113k-kam.pdf\">Computing Technology in International Development: Who, What, Where, When, Why and How?</a>, Panel Discussion, ACM Conference on Computer-Human Interaction (CHI), April 10-15, 2010, Atlanta, GA",
+        "Tapan S. Parikh, <a href=\"papers/ai4d.pdf\">Voice as Data: Learning from What People Say</a>, AAAI Spring Symposium on Artificial Intelligence for Development (AI-D), March 22-24, 2010, Stanford, CA",
+        "Kurtis Heimerl, RJ Honicky, Eric Brewer and Tapan Parikh, <a href=\"papers/s3p1_heimerl09nsdr.pdf\">Message Phone: A User Study and Analysis of Asynchronous Messaging in Rural Uganda</a>, ACM Workshop on Networked Systems for Developing Regions (NSDR), October 11, 2009, Big Sky, MT",
+        "Tapan S. Parikh, <a href=\"papers/ccc-parikh.pdf\">Computer Science and Global Economic Development: Sounds Interesting, but is it Computer Science?</a>, CCC Workshop on Computer Science and Global Development, August 1-2, 2009, Berkeley, CA",
+        "Kuang Chen, Harr Chen, Neil Conway, Heather Dolan, Joseph M. Hellerstein, and Tapan S. Parikh, <a href=\"papers/usher-ICTD-demo.pdf\">Improving Data Quality With Dynamic Forms</a>, Demo, International Conference on Information and Communication Technologies and Development (ICTD), April 17-19, 2009, Doha, Qatar",
+        "Kurtis Heimerl, Divya Ramachandran, Joyojeet Pal, Eric Brewer and Tapan S. Parikh, <a href=\"papers/metamouse-ICTD-demo.pdf\">Metamouse: Multiple Mice for Legacy Applications</a>, Demo, International Conference on Information and Communication Technologies and Development (ICTD), April 17-19, 2009, Doha, Qatar",
+        "Kurtis Heimerl, Divya Ramachandran, Joyojeet Pal, Eric Brewer and Tapan S. Parikh, <a href=\"papers/metamouse-CHI-WIP.pdf\">Metamouse: Multiple Mice for Legacy Applications</a>, Work in Progress, ACM Conference on Computer-Human Interaction (CHI), April 4-9, 2009, Boston, MA",
+        "Neil Patel, Sheetal Agarwal, Nitendra Rajput, Amit Nanavati,",
+        "Paresh Dave and Tapan S. Parikh, <a href=\"papers/slt4d-patel.pdf\">Experiences Designing a Voice Interface for Rural India</a>, IEEE Workshop on Spoken Language Technology, December 15-18, 2008, Goa, India",
+        "Tapan S. Parikh, Jenna Burrell and Coye Cheshire, <a href=\"papers/Digital-Money-Parikh.pdf\">Facilitating Richer Exchanges Using Mobile Technologies</a>, Everyday Digital Money, September 18-19, 2008, Irvine, CA",
+        "Yaw Anokwa, Colin Dixon, Gaetano Borriello and Tapan S. Parikh, <a href=\"papers/anokwa_optimizinglinks.pdf\">Optimizing High Latency Links in the Developing World</a>, ACM Wireless Networks and Systems for Developing Regions (WiNS-DR), September 19, 2008, San Francisco, CA",
+        "Neil Patel and Tapan S. Parikh, <a href=\"papers/patel_hci4cid08.pdf\">Designing a Farmer-centric Organic Certification System</a>, CHI Workshop on Human-Computer Interaction for Community and International Development (HCI4CID), April 5-6, 2008, Florence, Italy ",
+        "Yaw Anokwa, Christian Allen and Tapan Parikh, <a href=\"papers/anokwa_hci4cid08.pdf\">Deploying a Medical Record System in Rural Rwanda</a>, CHI Workshop on Human-Computer Interaction for Community and International Development (HCI4CID), April 5-6, 2008, Florence, Italy ",
+        "Brian DeRenzi, Tapan Parikh, Neal Lesh, Marc Mitchell, and Gaetano Borriello, <a href=\"papers/derenzi_hci4cid08.pdf\">Striking a Balance between User Comfort and Maximizing Benefit in Developing World Information Systems</a>, CHI Workshop on Human-Computer Interaction for Community and International Development (HCI4CID), April 5-6, 2008, Florence, Italy ",
+        "Brian DeRenzi, Krzysztof Gajos, Tapan Parikh, and Gaetano Borriello, <a href=\"papers/derenzi_iui4dr08.pdf\">Opportunities for Intelligent Interfaces Aiding Healthcare in Low-Income Regions</a>,  IUI Workshop on Intelligent User Interfaces for Developing Regions (IUI4DR), January 13, 2008, Canary Islands, Spain",
+        "Brian DeRenzi, Yaw Anokwa, Tapan Parikh, and Gaetano Borriello, <a href=\"papers/derenzi_nsdr07.pdf\">Reliable Data Collection in Highly Disconnected Environments using Mobile Phones</a>, SIGCOMM Workshop on Networked Systems for Developing Regions (NSDR), August 27, 2007, Kyoto, Japan"
+    ]
+}
