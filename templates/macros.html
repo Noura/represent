@@ -1,0 +1,29 @@
+{% macro people_tiles(peops) -%}
+  {% for p in peops %}
+    <div class="col-xs-4">
+      <div class="thumbnail person" alt="{{p.name}}">
+        <a href="{{p.url}}" class="thumbnail-inner">
+          <img src="{{p.img_src}}">
+
+          <div class="caption">
+            {{ p.name }}
+          </div>
+        </a>
+      </div>
+    </div>
+  {% endfor %}
+{%- endmacro %}
+
+{% macro projects_list(projs) -%}
+  {% for p in projs %}
+    <div class="row project">
+      <div class="col-xs-12 col-sm-4">
+        <img class="project" src="{{p.img_src}}">
+      </div>
+      <div class="col-xs-12 col-sm-8">
+        <h3>{{ p.name }}</h3>
+        <p>{{ p.desc }}</p>
+      </div>
+    </div>
+  {% endfor %}
+{%- endmacro %}

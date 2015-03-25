@@ -11,6 +11,16 @@ pages = [
         'template': 'index.html',
     },
     {
+        'name': 'about',
+        'path': 'about',
+        'template': 'about.html',
+    },
+    {
+        'name': 'people',
+        'path': 'people',
+        'template': 'people.html',
+    },
+    {
         'name': 'projects',
         'path': 'projects',
         'template': 'projects.html',

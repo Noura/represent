@@ -1,17 +1,25 @@
+{% extends "base.html" %}
+
+{% block body %}
+
 <div class="row">
-
-  {% for p in members %}
-  <div class="col-xs-4">
-    <div class="thumbnail person" alt="{{p.name}}">
-      <a href="{{p.url}}" class="thumbnail-inner">
-        <img src="{{p.img_src}}">
-
-        <div class="caption">
-          {{ p.name }}
-        </div>
-      </a>
-    </div>
+  <div class="col-xs-12">
+    <h1 class="represent">current</h1>
   </div>
-  {% endfor %}
-
 </div>
+
+<div class="row">
+  {{ macros.people_tiles(members) }}
+</div>
+
+<div class="row">
+  <div class="col-xs-12">
+    <h1 class="represent">alumni</h1>
+  </div>
+</div>
+
+<div class="row">
+  {{ macros.people_tiles(alumni) }}
+</div>
+
+{% endblock body %}

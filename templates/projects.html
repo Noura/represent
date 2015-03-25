@@ -4,20 +4,19 @@
 
 <div class="row">
   <div class="col-xs-12">
-    <h1 class="represent">projects</h1>
+    <h1 class="represent">current projects</h1>
   </div>
 </div>
 
-{% for p in current_projects %}
-<div class="row project">
-  <div class="col-xs-12 col-sm-4">
-    <img class="project" src="{{p.img_src}}">
-  </div>
-  <div class="col-xs-12 col-sm-8">
-    <h3>{{ p.name }}</h3>
-    <p>{{ p.desc }}</p>
+{{ macros.projects_list(current_projects) }}
+
+<div class="row">
+  <div class="col-xs-12">
+    <h1 class="represent">past projects</h1>
   </div>
 </div>
-{% endfor %}
+
+{{ macros.projects_list(old_projects) }}
+
 
 {% endblock body %}

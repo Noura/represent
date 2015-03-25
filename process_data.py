@@ -62,7 +62,7 @@ def main():
             if row[5] != '':
                 person['img_src'] = os.path.join('/', people_dir_out, row[5])
             else:
-                person['img_src'] = ''
+                person['img_src'] = '/static/img/wave.gif'
             if current:
                 current_ppl.append(person)
             else:
@@ -88,7 +88,7 @@ def main():
             if row[5] != '':
                 project['img_src'] = os.path.join('/', projects_dir_out, row[5])
             else:
-                project['img_src'] = ''
+                project['img_src'] = '/static/img/wave.gif'
             if current:
                 current_projects.append(project)
             else:

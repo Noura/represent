@@ -1,52 +1,52 @@
 {
     "alumni":[
         {
-            "img_src":"",
+            "img_src":"/static/img/wave.gif",
             "name":"Neil Patel",
             "url":"http://hci.stanford.edu/neilp/"
         },
         {
-            "img_src":"",
+            "img_src":"/static/img/wave.gif",
             "name":"Brian DeRenzi",
             "url":"http://www.bderenzi.com/"
         },
         {
-            "img_src":"",
+            "img_src":"/static/img/wave.gif",
             "name":"Yaw Anokwa",
             "url":"http://anokwa.com/"
         },
         {
-            "img_src":"",
+            "img_src":"/static/img/wave.gif",
             "name":"Kuang Chen",
             "url":"http://www.cs.berkeley.edu/~kuangc/"
         },
         {
-            "img_src":"",
+            "img_src":"/static/img/wave.gif",
             "name":"Neha Kumar",
             "url":"http://nehakumar.org/"
         },
         {
-            "img_src":"",
+            "img_src":"/static/img/wave.gif",
             "name":"Kurtis Heimerl",
             "url":"http://www.cs.berkeley.edu/~kheimerl/"
         },
         {
-            "img_src":"",
+            "img_src":"/static/img/wave.gif",
             "name":"Paul Goodman",
             "url":""
         },
         {
-            "img_src":"",
+            "img_src":"/static/img/wave.gif",
             "name":"Ariel Chait",
             "url":""
         },
         {
-            "img_src":"",
+            "img_src":"/static/img/wave.gif",
             "name":"Jon Katz",
             "url":""
         },
         {
-            "img_src":"",
+            "img_src":"/static/img/wave.gif",
             "name":"Yael Schwartzman",
             "url":"http://www.yaelschwartzman.com/"
         }
@@ -60,7 +60,7 @@
         },
         {
             "desc":"Mapping and Data Visualization Tools for Youth",
-            "img_src":"",
+            "img_src":"/static/img/wave.gif",
             "name":"Local Ground",
             "url":"http://localground.org"
         }
@@ -102,22 +102,22 @@
             "url":"http://ischool.berkeley.edu/people/students/vibhorevardhan"
         },
         {
-            "img_src":"",
+            "img_src":"/static/img/wave.gif",
             "name":"Sarah Van Wart",
             "url":"http://people.ischool.berkeley.edu/~vanwars/"
         },
         {
-            "img_src":"",
+            "img_src":"/static/img/wave.gif",
             "name":"Robert On",
             "url":""
         },
         {
-            "img_src":"",
+            "img_src":"/static/img/wave.gif",
             "name":"Kathryn Lanouette",
             "url":""
         },
         {
-            "img_src":"",
+            "img_src":"/static/img/wave.gif",
             "name":"Ryan Petteway",
             "url":""
         },
@@ -132,12 +132,12 @@
             "url":"www.tsionbehailu.me"
         },
         {
-            "img_src":"",
+            "img_src":"/static/img/wave.gif",
             "name":"Lucio Lopez",
             "url":""
         },
         {
-            "img_src":"",
+            "img_src":"/static/img/wave.gif",
             "name":"Chaitanya",
             "url":""
         }
@@ -145,55 +145,55 @@
     "old_projects":[
         {
             "desc":"Turning Paper Forms into Data using the Cloud and Crowd",
-            "img_src":"",
+            "img_src":"/static/img/wave.gif",
             "name":"Shreddr",
             "url":"http://captricity.com"
         },
         {
             "desc":"Giving Communities a Voice using Voice Social Media",
-            "img_src":"",
+            "img_src":"/static/img/wave.gif",
             "name":"Avaaj Otalo",
             "url":"http://awaaz.de"
         },
         {
             "desc":"Improving Monitoring Capacity at Small Farming Cooperatives",
-            "img_src":"",
+            "img_src":"/static/img/wave.gif",
             "name":"Digital ICS",
             "url":"http://acopio.com"
         },
         {
             "desc":"Mobile Tools for Community Health Workers",
-            "img_src":"",
+            "img_src":"/static/img/wave.gif",
             "name":"Commcare",
             "url":"http://www.commcarehq.org/home/"
         },
         {
             "desc":"Automated  Protocols for Diagnosis of Childhood Illnesses",
-            "img_src":"",
+            "img_src":"/static/img/wave.gif",
             "name":"E-IMCI",
             "url":"http://www.dimagi.com/mobile-e-imci/"
         },
         {
             "desc":"Small-scale Community Cellular Networks",
-            "img_src":"",
+            "img_src":"/static/img/wave.gif",
             "name":"VBTS",
             "url":"https://www.endaga.com/"
         },
         {
             "desc":"Equitable Sharing using Multiple Mice for  Education",
-            "img_src":"",
+            "img_src":"/static/img/wave.gif",
             "name":"Metamouse",
             "url":"http://sourceforge.net/projects/metamouse/"
         },
         {
             "desc":"Grading CS Exams with a Crowd-sourcing Vending Machine",
-            "img_src":"",
+            "img_src":"/static/img/wave.gif",
             "name":"Umati",
             "url":"http://represent.berkeley.edu/umati/"
         },
         {
             "desc":"Adaptive Forms for Improving Data Entry Accuracy and Efficiency",
-            "img_src":"",
+            "img_src":"/static/img/wave.gif",
             "name":"Usher",
             "url":"https://code.google.com/p/usher-forms/"
         }
