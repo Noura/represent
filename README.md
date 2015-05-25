@@ -1,3 +1,5 @@
-on the command line run
-./update.py
-to both process the data and remake the pages from that data
+on the command line, from the root directory, run
+./test
+
+then go to localhost:8000
+to see the latest

@@ -1,0 +1,5 @@
+#!/bin/bash
+
+./process_data.py
+./make_pages.py
+python -m SimpleHTTPServer
