@@ -44,7 +44,9 @@
   {% for p in projs %}
     <div class="row project">
       <div class="col-xs-12 col-sm-4">
-        <img class="project" src="{{p.img_src}}">
+        {% if p.img_src is defined %}
+          <img class="project" src="{{p.img_src}}">
+        {% endif %}
       </div>
       <div class="col-xs-12 col-sm-8">
         <h3>{{ p.name }}</h3>

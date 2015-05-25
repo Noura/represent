@@ -92,9 +92,6 @@ h1.represent {
 .thumbnail>img,
 .thumbnail a>img,
 img.project {
-    border-width: 1px;
-    border-color: rgb(100,100,100);
-    border-style: solid;
     width: 100%;
     height: auto;
     border-radius: 2px;

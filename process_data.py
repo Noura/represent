@@ -94,8 +94,6 @@ def main():
             project['desc'] = row[7]
             if row[5] != '':
                 project['img_src'] = os.path.join('/', projects_dir_out, row[5])
-            else:
-                project['img_src'] = '/static/img/wave.gif'
             if current:
                 current_projects.append(project)
             else:
