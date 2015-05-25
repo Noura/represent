@@ -43,6 +43,8 @@ def main():
     shutil.copytree(people_dir_in, people_dir_out)
     shutil.copytree(projects_dir_in, projects_dir_out)
 
+    os.system("cp -rf data/*.txt templates/")
+
     # process people
     advisor = {} # find the adviser separately to put him at the end
     with open(os.path.join(here, source, people_csv)) as csvfile:
