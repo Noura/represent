@@ -1,17 +1,43 @@
 {% macro people_tiles(peops) -%}
+<div class="row">
   {% for p in peops %}
-    <div class="col-xs-4">
-      <div class="thumbnail person" alt="{{p.name}}">
-        <a href="{{p.url}}" class="thumbnail-inner">
-          <img src="{{p.img_src}}">
-
-          <div class="caption">
-            {{ p.name }}
-          </div>
-        </a>
+    {% if p.img_src is defined %}
+      <div class="col-xs-4">
+        <div class="thumbnail person" alt="{{p.name}}">
+          {% if p.url is defined %}
+            <a href="{{p.url}}" class="thumbnail-inner">
+          {% endif %}
+              <img src="{{p.img_src}}">
+              <div class="caption">
+                {{ p.name }}
+              </div>
+          {% if p.url is defined %}
+            </a>
+          {% endif %}
+        </div>
       </div>
-    </div>
+    {% endif %}
   {% endfor %}
+</div>
+<div class="row">
+  {% for p in peops %}
+    {% if p.img_src is undefined %}
+      <div class="col-xs-4">
+        <div class="thumbnail person" alt="{{p.name}}">
+          {% if p.url is defined %}
+            <a href="{{p.url}}" class="thumbnail-inner">
+          {% endif %}
+              <div class="caption">
+                {{ p.name }}
+              </div>
+          {% if p.url is defined %}
+            </a>
+          {% endif %}
+        </div>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
 {%- endmacro %}
 
 {% macro projects_list(projs) -%}

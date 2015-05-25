@@ -43,6 +43,8 @@ def main():
     shutil.copytree(people_dir_in, people_dir_out)
     shutil.copytree(projects_dir_in, projects_dir_out)
 
+    # process people
+    advisor = {} # find the adviser separately to put him at the end
     with open(os.path.join(here, source, people_csv)) as csvfile:
         reader = csv.reader(csvfile)
         count = 0
@@ -58,15 +60,20 @@ def main():
                 continue
             person = {}
             person['name'] = row[0]
-            person['url'] = row[1]
+            if row[1] != '':
+                person['url'] = row[1]
             if row[5] != '':
                 person['img_src'] = os.path.join('/', people_dir_out, row[5])
-            else:
-                person['img_src'] = '/static/img/wave.gif'
-            if current:
+            # sort ppl into advisor or current members or alumni
+            if person['name'] == 'Tapan Parikh':
+                advisor = person
+            elif current:
                 current_ppl.append(person)
             else:
                 alumni.append(person)
+    current_ppl = sorted(current_ppl, key=lambda p: p['name'].split(' ')[-1])
+    alumni = sorted(alumni, key=lambda p: p['name'].split(' ')[-1])
+    current_ppl.append(advisor) # advisor gets shown at end of current members
 
     with open(os.path.join(here, source, projects_csv)) as csvfile:
         reader = csv.reader(csvfile)
