@@ -10,11 +10,11 @@ pages = [
         'path': '',
         'template': 'index.html',
     },
-    {
-        'name': 'about',
-        'path': 'about',
-        'template': 'about.html',
-    },
+#    {
+#        'name': 'about',
+#        'path': 'about',
+#        'template': 'about.html',
+#    },
     {
         'name': 'people',
         'path': 'people',

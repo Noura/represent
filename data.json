@@ -1,18 +1,9 @@
 {
     "alumni":[
         {
-            "img_src":"/static/img/people/yaw.jpg",
-            "name":"Yaw Anokwa",
-            "url":"http://anokwa.com/"
-        },
-        {
             "img_src":"/static/img/people/ariel.jpg",
-            "name":"Ariel Chait"
-        },
-        {
-            "img_src":"/static/img/people/kuang.jpg",
-            "name":"Kuang Chen",
-            "url":"http://www.cs.berkeley.edu/~kuangc/"
+            "name":"Ariel Chait",
+            "url":"https://twitter.com/apchait"
         },
         {
             "img_src":"/static/img/people/brian.jpeg",
@@ -20,17 +11,19 @@
             "url":"http://www.bderenzi.com/"
         },
         {
-            "img_src":"/static/img/people/kurtis.jpg",
-            "name":"Paul Goodman"
+            "img_src":"/static/img/people/jon.jpg",
+            "name":"Jon Katz",
+            "url":"https://www.linkedin.com/in/katzjon"
+        },
+        {
+            "img_src":"/static/img/people/kuang.jpg",
+            "name":"Kuang Chen",
+            "url":"http://www.cs.berkeley.edu/~kuangc/"
         },
         {
             "img_src":"/static/img/people/paul.jpg",
             "name":"Kurtis Heimerl",
             "url":"http://www.cs.berkeley.edu/~kheimerl/"
-        },
-        {
-            "img_src":"/static/img/people/jon.jpg",
-            "name":"Jon Katz"
         },
         {
             "img_src":"/static/img/people/neha.jpg",
@@ -43,20 +36,35 @@
             "url":"http://hci.stanford.edu/neilp/"
         },
         {
+            "img_src":"/static/img/people/kurtis.jpg",
+            "name":"Paul Goodman",
+            "url":"https://twitter.com/pdgoodman"
+        },
+        {
+            "img_src":"/static/img/people/tsion.jpg",
+            "name":"Tsion Behailu",
+            "url":"http://www.tsionbehailu.me"
+        },
+        {
             "img_src":"/static/img/people/yael.jpeg",
             "name":"Yael Schwartzman",
             "url":"http://www.yaelschwartzman.com/"
+        },
+        {
+            "img_src":"/static/img/people/yaw.jpg",
+            "name":"Yaw Anokwa",
+            "url":"http://anokwa.com/"
         }
     ],
     "current_projects":[
         {
-            "desc":"Crowd-sourcing Land Data with Small Farmers",
+            "desc":"Crowd-sourcing Land Access for Aspiring Farmers",
             "img_src":"/static/img/projects/ALBA_Berries.jpg",
-            "name":"Participatory Mapping for Agriculture",
+            "name":"Participatory Mapping & Agriculture",
             "url":""
         },
         {
-            "desc":"Mapping and Data Visualization Tools for Youth",
+            "desc":"Mapping and Data Visualization for Youth",
             "img_src":"/static/img/projects/LocalGround.png",
             "name":"Local Ground",
             "url":"http://localground.org"
@@ -64,17 +72,9 @@
     ],
     "members":[
         {
-            "img_src":"/static/img/people/tsion.jpg",
-            "name":"Tsion Behailu",
-            "url":"http://www.tsionbehailu.me"
-        },
-        {
             "img_src":"/static/img/people/Adam_weeding.jpg",
             "name":"Adam Calo",
             "url":"http://ourenvironment.berkeley.edu/people_profiles/adam-calo/"
-        },
-        {
-            "name":"Chaitanya"
         },
         {
             "img_src":"/static/img/people/aparnaSquare.jpg",
@@ -82,20 +82,9 @@
             "url":"http://www.aparnadhinakaran.com"
         },
         {
-            "img_src":"/static/img/people/noura.jpg",
-            "name":"Noura Howell",
-            "url":"http://nourahowell.com"
-        },
-        {
-            "name":"Kathryn Lanouette"
-        },
-        {
-            "name":"Lucio Lopez"
-        },
-        {
-            "img_src":"/static/img/people/zack.png",
-            "name":"Zack MacHardy",
-            "url":"http://www.eecs.berkeley.edu/~zmmachar/"
+            "img_src":"/static/img/people/meena.jpg",
+            "name":"Meena Natarajan",
+            "url":"http://www.mee-na.com/"
         },
         {
             "img_src":"/static/img/people/ffff.jpeg",
@@ -103,15 +92,14 @@
             "url":"http://cosmopol.is"
         },
         {
-            "img_src":"/static/img/people/meena.jpg",
-            "name":"Meena Natarajan",
-            "url":"http://www.mee-na.com/"
+            "img_src":"/static/img/people/noura.jpg",
+            "name":"Noura Howell",
+            "url":"http://nourahowell.com"
         },
         {
-            "name":"Robert On"
-        },
-        {
-            "name":"Ryan Petteway"
+            "img_src":"/static/img/people/sarah.jpg",
+            "name":"Sarah Van Wart",
+            "url":"http://people.ischool.berkeley.edu/~vanwars/"
         },
         {
             "img_src":"/static/img/people/sepehr.jpg",
@@ -124,9 +112,9 @@
             "url":"http://ischool.berkeley.edu/people/students/vibhorevardhan"
         },
         {
-            "img_src":"/static/img/people/sarah.jpg",
-            "name":"Sarah Van Wart",
-            "url":"http://people.ischool.berkeley.edu/~vanwars/"
+            "img_src":"/static/img/people/zack.png",
+            "name":"Zack MacHardy",
+            "url":"http://www.eecs.berkeley.edu/~zmmachar/"
         },
         {
             "img_src":"/static/img/people/tap.jpg",
@@ -137,11 +125,12 @@
     "old_projects":[
         {
             "desc":"Small-scale Community Cellular Networks",
+            "img_src":"/static/img/projects/vbts.png",
             "name":"Endaga",
             "url":"https://www.endaga.com/"
         },
         {
-            "desc":"Grading CS Exams with a Crowd-sourcing Vending Machine",
+            "desc":"Grading Exams with a Crowd-sourcing Vending Machine",
             "img_src":"/static/img/projects/umati.jpg",
             "name":"Umati",
             "url":"http://represent.berkeley.edu/umati/"
@@ -159,13 +148,13 @@
             "url":"http://awaaz.de"
         },
         {
-            "desc":"Turning Paper Forms into Data using the Cloud and Crowd",
+            "desc":"Turning Paper into Data using the Cloud and Crowd",
             "img_src":"/static/img/projects/captricity.gif",
             "name":"Captricity",
             "url":"http://captricity.com"
         },
         {
-            "desc":"",
+            "desc":"Open Source Mobile Data Collection Tools",
             "img_src":"/static/img/projects/odk_medium_square.png",
             "name":"OpenDataKit",
             "url":"http://opendatakit.org "
@@ -177,7 +166,7 @@
             "url":"http://sourceforge.net/projects/metamouse/"
         },
         {
-            "desc":"Adaptive Forms for Improving Data Entry Accuracy and Efficiency",
+            "desc":"Adaptive Forms for Data Entry Accuracy and Efficiency",
             "img_src":"/static/img/projects/usher.png",
             "name":"Usher",
             "url":"https://code.google.com/p/usher-forms/"
@@ -189,7 +178,7 @@
             "url":"http://www.commcarehq.org/home/"
         },
         {
-            "desc":"Automated  Protocols for Diagnosis of Childhood Illnesses",
+            "desc":"Automated Protocols for Diagnosis of Childhood Illnesses",
             "img_src":"/static/img/projects/imci.png",
             "name":"E-IMCI",
             "url":"http://www.dimagi.com/mobile-e-imci/"
@@ -224,7 +213,7 @@
         "Kuang Chen, Harr Chen, Neil Conway, Joseph M. Hellerstein and Tapan S. Parikh, <a href=\"papers/ICDE10_conf_full_646.pdf\">Usher: Improving Data Quality With Dynamic Forms</a>, IEEE International Conference on Data Engineering (ICDE), March 1-6, 2010, Long Beach, CA, <i>Best Student Paper Award</i>",
         "Neil Patel, Sheetal Agarwal, Nitendra Rajput, Amit Nanavati, Paresh Dave and Tapan S. Parikh, <a href=\"papers/note0202-patel.pdf\">Comparative Study of Speech and Dialed Input Voice Interfaces in Rural India</a>, Note, ACM Conference on Computer-Human Interaction (CHI), April 6-9, 2009, Boston, MA",
         "Brian DeRenzi, Neal Lesh, Tapan Parikh, Clayton Sims, Marc Mitchell, Werner Maokola, Mwajuma Chemba, Yuna Hamisi, David Schellenberg and Gaetano Borriello, <a href=\"papers/chi1104-bderenzi.pdf\">e-IMCI: Improving     Pediatric Health Care in Low-Income Countries</a>, ACM Conference on Computer-Human Interaction (CHI), April 7-10, 2008, Florence, Italy",
-        "<b>Refereed Abstracts, Posters and Workshop Papers</b>",
+        "<h3>Refereed Abstracts, Posters and Workshop Papers</h3>",
         "Sarah Van Wart and Tapan S. Parikh, <a href=\"papers/ICLS-LocalGround.pdf\">Local Ground: A Toolkit Supporting Metarepresentational Competence in Data Science</a>, Poster, International Conference of the Learning Sciences (ICLS), June 23-27, 2014, Boulder, Colorado ",
         "Sarah Van Wart and Tapan S. Parikh, <a href=\"papers/vanwart-localground-geohci2013.pdf\">Increasing Youth and Community Agency in GIS</a>, GeoHCI Workshop, April 27-28, 2013, Paris, France",
         "Anand Kulkarni, Philipp Gutheim, Prayag Narula, David Rolnitzky, Tapan Parikh and Bjoern Hartmann, <a href=\"papers/5308-22730-1-PB.pdf\">MobileWorks: Designing for Quality in a Managed Crowdsourcing Architecture</a>, Extended Abstract, Human Computation Workshop (HCOMP), July 23, 2012, Toronto, Canada",
@@ -252,7 +241,7 @@
         "<h3>Other Papers</h3>",
         "Adam Calo, <a href=\"http://ourenvironment.berkeley.edu/2015/01/making-research-relevant/\">Making Research Relevant: Narratives, Complexity, and the Hubris of Objectivity</a>, 2015",
         "Adam Calo, <a href=\"http://civileats.com/2014/06/27/an-app-for-that-technology-as-a-solution-to-our-broken-food-system/\">An App for That: Technology as a Solution to Our Broken Food System?</a>, Civil Eats, June 27, 2014",
-        "Adam Calo, <a href=\"http://www.earthisland.org/journal/index.php/elist/eListRead/cuba_caught_at_agricultural_crossroads/\">Cuba Caught At Agricultural Crossroads, Earth Island Journal, November, 2013",
+        "Adam Calo, <a href=\"http://www.earthisland.org/journal/index.php/elist/eListRead/cuba_caught_at_agricultural_crossroads/\">Cuba Caught At Agricultural Crossroads</a>, Earth Island Journal, November, 2013",
         "Yael Schwartzman, Mario Vila and Tapan S. Parikh, <a href=\"http://ictupdate.cta.int/en/Feature-Articles/A-standard-system\">A Standard System: Specialised software improves efficiency of farm inspection process in Mexico</a>, <u>ICT Update</u>, Issue 55, June, 2010",
         "Yael Schwartzman, Mario Vila and Tapan S. Parikh, <a href=\"papers/DigitalICS.pdf\">Automating Internal Control at a Coffee Cooperative using Mobile Phones Improves Efficiency and Accountability</a>, 2009",
         "Kuang Chen, Kurtis Heimerl, Tapan Parikh, Christine Robson and Beth Trushkowsky, <a href=\"papers/commscape.pdf\">Transforming Community-based Healthcare with CommScape</a>, EECS Department, University of California, Berkeley, Tech. Rep. UCB/EECS-2009-155, November 2009"

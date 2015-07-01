@@ -55,10 +55,10 @@ def main():
             if count < people_top_lines:
                 count += 1
                 continue
-            if row[0] == '':
-                continue
             if row[0] == people_old:
                 current = False
+                continue
+            if row[0] == '' or row[7] != 'y':
                 continue
             person = {}
             person['name'] = row[0]
@@ -67,14 +67,16 @@ def main():
             if row[5] != '':
                 person['img_src'] = os.path.join('/', people_dir_out, row[5])
             # sort ppl into advisor or current members or alumni
-            if person['name'] == 'Tapan Parikh':
+            if row[6] == 'y':
                 advisor = person
             elif current:
                 current_ppl.append(person)
             else:
                 alumni.append(person)
-    current_ppl = sorted(current_ppl, key=lambda p: p['name'].split(' ')[-1])
-    alumni = sorted(alumni, key=lambda p: p['name'].split(' ')[-1])
+    #current_ppl = sorted(current_ppl, key=lambda p: p['name'].split(' ')[-1])
+    #alumni = sorted(alumni, key=lambda p: p['name'].split(' ')[-1])
+    current_ppl = sorted(current_ppl, key=lambda p: p['name'])
+    alumni = sorted(alumni, key=lambda p: p['name'])
     current_ppl.append(advisor) # advisor gets shown at end of current members
 
     with open(os.path.join(here, source, projects_csv)) as csvfile:
@@ -85,15 +87,15 @@ def main():
             if count < projects_top_lines:
                 count += 1
                 continue
-            if row[0] == '':
-                continue
             if row[0] == projects_old:
                 current = False
+                continue
+            if row[0] == '' or row[8] != 'y':
                 continue
             project = {}
             project['name'] = row[0]
             project['url'] = row[1]
-            project['desc'] = row[7]
+            project['desc'] = row[6]
             if row[5] != '':
                 project['img_src'] = os.path.join('/', projects_dir_out, row[5])
             if current:

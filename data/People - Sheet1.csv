@@ -1,31 +1,31 @@
-Name,personal website URL,uploaded image?,is the image square?,is it at least 183px by 183px?,filename of image,
-full name as you want it to appear underneath your picture,,put it,( y / n ),( y / n ),no spaces in filename,
-,,in this folder,,,,thank you :-)
-Noura Howell,http://nourahowell.com,y,y,y,noura.jpg,
-Zack MacHardy,http://www.eecs.berkeley.edu/~zmmachar/,y,y,y,zack.png,
-Adam Calo,http://ourenvironment.berkeley.edu/people_profiles/adam-calo/,y,y,y,Adam_weeding.jpg,
-Meena Natarajan,http://www.mee-na.com/,y,y,y,meena.jpg,
-Nick Merrill,http://cosmopol.is,y,y,y,ffff.jpeg,
-Sepehr Vakil,http://rcmeberkeley.com/content/sepehr,y,y,y,sepehr.jpg,
-Vibhore Vardhan,http://ischool.berkeley.edu/people/students/vibhorevardhan,y,y,y,vibhore.png,
-Sarah Van Wart,http://people.ischool.berkeley.edu/~vanwars/,y,y,y,sarah.jpg,
-Robert On,,,,,,
-Kathryn Lanouette,,,,,,
-Ryan Petteway,,,,,,
-Aparna Dhinakaran,http://www.aparnadhinakaran.com,y,n ,y,aparnaSquare.jpg,
-Tsion Behailu,http://www.tsionbehailu.me,y,y,y,tsion.jpg,
-Lucio Lopez,,,,,,
-Chaitanya,,,,,,
-Tapan Parikh,http://people.ischool.berkeley.edu/~parikh/,y,y,y,tap.jpg,
-,,,,,,
-Alumni:,,,,,,
-Neil Patel,http://hci.stanford.edu/neilp/,y,y,y,neil.jpg,
-Brian DeRenzi,http://www.bderenzi.com/,,,,brian.jpeg,
-Yaw Anokwa,http://anokwa.com/,,,,yaw.jpg,
-Kuang Chen,http://www.cs.berkeley.edu/~kuangc/,,,,kuang.jpg,
-Neha Kumar,http://nehakumar.org/,,,,neha.jpg,
-Kurtis Heimerl,http://www.cs.berkeley.edu/~kheimerl/,,,,paul.jpg,
-Paul Goodman,,,,,kurtis.jpg,
-Ariel Chait,,,,,ariel.jpg,
-Jon Katz,,,,,jon.jpg,
-Yael Schwartzman,http://www.yaelschwartzman.com/,,,,yael.jpeg,
+Name,personal website URL,uploaded image?,is the image square?,is it at least 183px by 183px?,filename of image,Advisor,Display
+full name as you want it to appear underneath your picture,,put it,( y / n ),( y / n ),no spaces in filename,( y / n ),( y / n )
+,,in this folder,,,,,
+Adam Calo,http://ourenvironment.berkeley.edu/people_profiles/adam-calo/,y,y,y,Adam_weeding.jpg,,y
+Aparna Dhinakaran,http://www.aparnadhinakaran.com,y,n ,y,aparnaSquare.jpg,,y
+Chaitanya Mittal,,,,,,,
+Kathryn Lanouette,,,,,,,
+Lucio Lopez,,,,,,,
+Meena Natarajan,http://www.mee-na.com/,y,y,y,meena.jpg,,y
+Nick Merrill,http://cosmopol.is,y,y,y,ffff.jpeg,,y
+Noura Howell,http://nourahowell.com,y,y,y,noura.jpg,,y
+Robert On,,,,,,,
+Ryan Petteway,,,,,,,
+Sarah Van Wart,http://people.ischool.berkeley.edu/~vanwars/,y,y,y,sarah.jpg,,y
+Sepehr Vakil,http://rcmeberkeley.com/content/sepehr,y,y,y,sepehr.jpg,,y
+Vibhore Vardhan,http://ischool.berkeley.edu/people/students/vibhorevardhan,y,y,y,vibhore.png,,y
+Zack MacHardy,http://www.eecs.berkeley.edu/~zmmachar/,y,y,y,zack.png,,y
+Tapan Parikh,http://people.ischool.berkeley.edu/~parikh/,y,y,y,tap.jpg,y,y
+,,,,,,,
+Alumni:,,,,,,,
+Ariel Chait,https://twitter.com/apchait,,,,ariel.jpg,,y
+Brian DeRenzi,http://www.bderenzi.com/,,,,brian.jpeg,,y
+Jon Katz,https://www.linkedin.com/in/katzjon,,,,jon.jpg,,y
+Kuang Chen,http://www.cs.berkeley.edu/~kuangc/,,,,kuang.jpg,,y
+Kurtis Heimerl,http://www.cs.berkeley.edu/~kheimerl/,,,,paul.jpg,,y
+Neha Kumar,http://nehakumar.org/,,,,neha.jpg,,y
+Neil Patel,http://hci.stanford.edu/neilp/,y,y,y,neil.jpg,,y
+Paul Goodman,https://twitter.com/pdgoodman,,,,kurtis.jpg,,y
+Tsion Behailu,http://www.tsionbehailu.me,y,y,y,tsion.jpg,,y
+Yael Schwartzman,http://www.yaelschwartzman.com/,,,,yael.jpeg,,y
+Yaw Anokwa,http://anokwa.com/,,,,yaw.jpg,,y
