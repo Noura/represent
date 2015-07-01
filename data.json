@@ -139,11 +139,11 @@
             "desc":"Improving Monitoring Capacity at Small Farming Coops",
             "img_src":"/static/img/projects/acopio.jpg",
             "name":"Acopio",
-            "url":"http://acopio.com"
+            "url":"http://acopio.org/"
         },
         {
             "desc":"Giving Communities a Voice using Voice Social Media",
-            "img_src":"/static/img/projects/AwaazDe.jpg",
+            "img_src":"/static/img/projects/AwaazDe.png",
             "name":"Awaaz.De",
             "url":"http://awaaz.de"
         },
@@ -156,7 +156,7 @@
         {
             "desc":"Open Source Mobile Data Collection Tools",
             "img_src":"/static/img/projects/odk_medium_square.png",
-            "name":"OpenDataKit",
+            "name":"Open Data Kit",
             "url":"http://opendatakit.org "
         },
         {
@@ -180,8 +180,8 @@
         {
             "desc":"Automated Protocols for Diagnosis of Childhood Illnesses",
             "img_src":"/static/img/projects/imci.png",
-            "name":"E-IMCI",
-            "url":"http://www.dimagi.com/mobile-e-imci/"
+            "name":"e-IMCI",
+            "url":"http://www.bderenzi.com/home"
         }
     ],
     "publications":[

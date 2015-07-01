@@ -9,6 +9,7 @@
         <div class="thumbnail person" alt="{{p.name}}">
           {% if p.url is defined %}
             <a href="{{p.url}}" class="thumbnail-inner">
+          {% endif %}
 	  {% if p.img_src is defined %}
               <img src="{{p.img_src}}"/>
           {% endif %}
@@ -20,7 +21,6 @@
           {% endif %}
         </div>
       </div>
-    {% endif %}
   {% endfor %}
 </div>
 {%- endmacro %}
@@ -28,6 +28,9 @@
 {% macro projects_list(projs) -%}
   {% for p in projs %}
     <div class="row project">
+      {% if p.url is defined %}
+      <a href="{{p.url}}" class="thumbnail-inner">
+      {% endif %}
       <div class="col-xs-12 col-sm-4">
         {% if p.img_src is defined %}
           <img class="project" src="{{p.img_src}}">
@@ -37,6 +40,9 @@
         <h3>{{ p.name }}</h3>
         <p>{{ p.desc }}</p>
       </div>
+      {% if p.url is defined %}
+      </a>
+      {% endif %}
     </div>
   {% endfor %}
 {%- endmacro %}
