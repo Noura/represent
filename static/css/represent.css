@@ -40,6 +40,11 @@ body,
 .navbar-inverse .navbar-nav>.active>a:hover {
     background-color: #555;
 }
+.navbar-collapse.collapse.in {
+    border-radius: 2px;
+    box-shadow: rgb(36,36,36) 3px 3px 5px;
+    background-color: rgb(71,71,71);
+}
 
 .project.row {
     padding-bottom: 1em;
