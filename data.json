@@ -18,10 +18,10 @@
         {
             "img_src":"/static/img/people/kuang.jpg",
             "name":"Kuang Chen",
-            "url":"http://www.cs.berkeley.edu/~kuangc/"
+            "url":"http://www.technologyreview.com/lists/innovators-under-35/2014/humanitarian/kuang-chen/"
         },
         {
-            "img_src":"/static/img/people/paul.jpg",
+            "img_src":"/static/img/people/kurtis.jpg",
             "name":"Kurtis Heimerl",
             "url":"http://www.cs.berkeley.edu/~kheimerl/"
         },
@@ -36,7 +36,7 @@
             "url":"http://hci.stanford.edu/neilp/"
         },
         {
-            "img_src":"/static/img/people/kurtis.jpg",
+            "img_src":"/static/img/people/paul.jpg",
             "name":"Paul Goodman",
             "url":"https://twitter.com/pdgoodman"
         },
@@ -72,14 +72,22 @@
     ],
     "members":[
         {
-            "img_src":"/static/img/people/Adam_weeding.jpg",
+            "img_src":"/static/img/people/Adam.jpg",
             "name":"Adam Calo",
             "url":"http://ourenvironment.berkeley.edu/people_profiles/adam-calo/"
         },
         {
-            "img_src":"/static/img/people/aparnaSquare.jpg",
+            "img_src":"/static/img/people/aparna.jpg",
             "name":"Aparna Dhinakaran",
             "url":"http://www.aparnadhinakaran.com"
+        },
+        {
+            "img_src":"/static/img/people/kathryn.jpg",
+            "name":"Kathryn Lanouette"
+        },
+        {
+            "img_src":"/static/img/people/lopez.jpg",
+            "name":"Lucio Lopez"
         },
         {
             "img_src":"/static/img/people/meena.jpg",
@@ -102,9 +110,14 @@
             "url":"http://people.ischool.berkeley.edu/~vanwars/"
         },
         {
+            "img_src":"/static/img/people/taek.png",
+            "name":"Seongtaek Lim",
+            "url":"http://people.ischool.berkeley.edu/~stlim/"
+        },
+        {
             "img_src":"/static/img/people/sepehr.jpg",
             "name":"Sepehr Vakil",
-            "url":"http://rcmeberkeley.com/content/sepehr"
+            "url":"https://twitter.com/zarbesepehr"
         },
         {
             "img_src":"/static/img/people/vibhore.png",

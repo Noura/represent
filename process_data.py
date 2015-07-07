@@ -46,7 +46,7 @@ def main():
     os.system("cp -rf data/*.txt templates/")
 
     # process people
-    advisor = {} # find the adviser separately to put him at the end
+    # advisor = {} # find the adviser separately to put him at the end
     with open(os.path.join(here, source, people_csv)) as csvfile:
         reader = csv.reader(csvfile)
         count = 0
@@ -58,7 +58,7 @@ def main():
             if row[0] == people_old:
                 current = False
                 continue
-            if row[0] == '' or row[7] != 'y':
+            if row[0] == '' or row[6] != 'y':
                 continue
             person = {}
             person['name'] = row[0]
@@ -67,17 +67,19 @@ def main():
             if row[5] != '':
                 person['img_src'] = os.path.join('/', people_dir_out, row[5])
             # sort ppl into advisor or current members or alumni
-            if row[6] == 'y':
-                advisor = person
-            elif current:
+            #if row[6] == 'y':
+            #    advisor = person
+            #elif current:
+            if current:
                 current_ppl.append(person)
             else:
                 alumni.append(person)
+    #rely on sorting in spreadsheet
     #current_ppl = sorted(current_ppl, key=lambda p: p['name'].split(' ')[-1])
     #alumni = sorted(alumni, key=lambda p: p['name'].split(' ')[-1])
-    current_ppl = sorted(current_ppl, key=lambda p: p['name'])
-    alumni = sorted(alumni, key=lambda p: p['name'])
-    current_ppl.append(advisor) # advisor gets shown at end of current members
+    #current_ppl = sorted(current_ppl, key=lambda p: p['name'])
+    #alumni = sorted(alumni, key=lambda p: p['name'])
+    #current_ppl.append(advisor) # advisor gets shown at end of current members
 
     with open(os.path.join(here, source, projects_csv)) as csvfile:
         reader = csv.reader(csvfile)
