@@ -96,7 +96,8 @@ def main():
                 continue
             project = {}
             project['name'] = row[0]
-            project['url'] = row[1]
+            if row[1] != '':
+                project['url'] = row[1]
             project['desc'] = row[6]
             if row[5] != '':
                 project['img_src'] = os.path.join('/', projects_dir_out, row[5])
