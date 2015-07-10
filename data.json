@@ -155,6 +155,12 @@
             "url":"http://acopio.org/"
         },
         {
+            "desc":"Crowdsourcing Data for Public Service Delivery",
+            "img_src":"/static/img/projects/nextdrop.png",
+            "name":"NextDrop",
+            "url":"http://nextdrop.org"
+        },
+        {
             "desc":"Giving Communities a Voice using Voice Social Media",
             "img_src":"/static/img/projects/AwaazDe.png",
             "name":"Awaaz.De",
