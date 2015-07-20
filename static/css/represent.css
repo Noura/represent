@@ -119,6 +119,7 @@ img.project {
 }
 .thumbnail.person .caption {
     text-align: center;
+    text-decoration: underline;
 }
 .thumbnail.person img {
     -webkit-filter: grayscale(1);
