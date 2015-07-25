@@ -104,6 +104,16 @@
             "url":"http://nourahowell.com"
         },
         {
+            "img_src":"/static/img/people/robert.jpg",
+            "name":"Robert On",
+            "url":"http://www.ischool.berkeley.edu/people/students/roberton"
+        },
+        {
+            "img_src":"/static/img/people/ryan.jpg",
+            "name":"Ryan Petteway",
+            "url":"https://www.linkedin.com/pub/ryan-petteway/56/70b/144/"
+        },
+        {
             "img_src":"/static/img/people/sarah.jpg",
             "name":"Sarah Van Wart",
             "url":"http://people.ischool.berkeley.edu/~vanwars/"
