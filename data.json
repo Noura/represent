@@ -1,6 +1,11 @@
 {
     "alumni":[
         {
+            "img_src":"/static/img/people/aparna.jpg",
+            "name":"Aparna Dhinakaran",
+            "url":"http://www.aparnadhinakaran.com"
+        },
+        {
             "img_src":"/static/img/people/ariel.jpg",
             "name":"Ariel Chait",
             "url":"https://twitter.com/apchait"
@@ -41,6 +46,11 @@
             "url":"https://twitter.com/pdgoodman"
         },
         {
+            "img_src":"/static/img/people/ryan.jpg",
+            "name":"Ryan Petteway",
+            "url":"https://www.linkedin.com/pub/ryan-petteway/56/70b/144/"
+        },
+        {
             "img_src":"/static/img/people/tsion.jpg",
             "name":"Tsion Behailu",
             "url":"http://www.tsionbehailu.me"
@@ -54,9 +64,20 @@
             "img_src":"/static/img/people/yaw.jpg",
             "name":"Yaw Anokwa",
             "url":"http://anokwa.com/"
+        },
+        {
+            "img_src":"/static/img/people/zack.png",
+            "name":"Zack MacHardy",
+            "url":"https://www.linkedin.com/pub/zack-machardy/66/576/9b7"
         }
     ],
     "current_projects":[
+        {
+            "desc":"Creative Coding for Middle and High School Youth",
+            "img_src":"/static/img/projects/caminoContigo.png",
+            "name":"Code 510",
+            "url":"http://code510.org"
+        },
         {
             "desc":"Crowd-sourcing Land Access for Aspiring Farmers",
             "img_src":"/static/img/projects/ALBA_Berries.jpg",
@@ -76,9 +97,14 @@
             "url":"http://ourenvironment.berkeley.edu/people_profiles/adam-calo/"
         },
         {
-            "img_src":"/static/img/people/aparna.jpg",
-            "name":"Aparna Dhinakaran",
-            "url":"http://www.aparnadhinakaran.com"
+            "img_src":"/static/img/people/ellenProfile.jpg",
+            "name":"Ellen Van Wyk",
+            "url":"http://ellenvanwyk.github.io/"
+        },
+        {
+            "img_src":"/static/img/people/karin.png",
+            "name":"Karin Goh",
+            "url":"http://karingoh.me/"
         },
         {
             "img_src":"/static/img/people/kathryn.jpg",
@@ -109,11 +135,6 @@
             "url":"http://www.ischool.berkeley.edu/people/students/roberton"
         },
         {
-            "img_src":"/static/img/people/ryan.jpg",
-            "name":"Ryan Petteway",
-            "url":"https://www.linkedin.com/pub/ryan-petteway/56/70b/144/"
-        },
-        {
             "img_src":"/static/img/people/sarah.jpg",
             "name":"Sarah Van Wart",
             "url":"http://people.ischool.berkeley.edu/~vanwars/"
@@ -132,11 +153,6 @@
             "img_src":"/static/img/people/vibhore.png",
             "name":"Vibhore Vardhan",
             "url":"http://ischool.berkeley.edu/people/students/vibhorevardhan"
-        },
-        {
-            "img_src":"/static/img/people/zack.png",
-            "name":"Zack MacHardy",
-            "url":"https://www.linkedin.com/pub/zack-machardy/66/576/9b7"
         },
         {
             "img_src":"/static/img/people/tap.jpg",
