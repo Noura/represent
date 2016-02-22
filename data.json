@@ -84,9 +84,10 @@
             "url":"http://code510.org"
         },
         {
-            "desc":"Crowd-sourcing Land Access for Aspiring Farmers",
+            "desc":"Montioring Land Access for New, Aspiring Farmers",
             "img_src":"/static/img/projects/ALBA_Berries.jpg",
-            "name":"Participatory Mapping & Agriculture"
+            "name":"FarmView",
+            "url":"http://farmview.herokuapp.com/"
         },
         {
             "desc":"Mapping and Data Visualization for Youth",
