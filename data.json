@@ -51,6 +51,11 @@
             "url":"https://www.linkedin.com/pub/ryan-petteway/56/70b/144/"
         },
         {
+            "img_src":"/static/img/people/sepehr.jpg",
+            "name":"Sepehr Vakil",
+            "url":"https://twitter.com/zarbesepehr"
+        },
+        {
             "img_src":"/static/img/people/tsion.jpg",
             "name":"Tsion Behailu",
             "url":"http://www.tsionbehailu.me"
@@ -143,11 +148,6 @@
             "img_src":"/static/img/people/taek.png",
             "name":"Seongtaek Lim",
             "url":"http://people.ischool.berkeley.edu/~stlim/"
-        },
-        {
-            "img_src":"/static/img/people/sepehr.jpg",
-            "name":"Sepehr Vakil",
-            "url":"https://twitter.com/zarbesepehr"
         },
         {
             "img_src":"/static/img/people/vibhore.png",
