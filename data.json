@@ -78,16 +78,16 @@
     ],
     "current_projects":[
         {
+            "desc":"Montioring Land Access for New and Aspiring Farmers",
+            "img_src":"/static/img/projects/ALBA_Berries.jpg",
+            "name":"FarmView",
+            "url":"http://farmview.herokuapp.com/"
+        },
+        {
             "desc":"Creative Coding for Middle and High School Youth",
             "img_src":"/static/img/projects/caminoContigo.png",
             "name":"Code 510",
             "url":"http://code510.org"
-        },
-        {
-            "desc":"Montioring Land Access for New and Aspiring Farmers",
-            "img_src":"/static/img/projects/ALBA_Berries.jpg",
-            "name":"Farmview",
-            "url":"http://farmview.herokuapp.com/"
         },
         {
             "desc":"Mapping and Data Visualization for Youth",
@@ -158,7 +158,7 @@
         {
             "img_src":"/static/img/people/tap.jpg",
             "name":"Tapan Parikh",
-            "url":"http://tapanparikh.com"
+            "url":"http://tap2k.org"
         }
     ],
     "old_projects":[
@@ -201,7 +201,7 @@
         {
             "desc":"Open Source Mobile Data Collection Tools",
             "img_src":"/static/img/projects/odk_medium_square.png",
-            "name":"Open Data Kit",
+            "name":"OpenDataKit",
             "url":"http://opendatakit.org "
         },
         {
@@ -219,7 +219,7 @@
         {
             "desc":"Mobile Tools for Community Health Workers",
             "img_src":"/static/img/projects/cc.png",
-            "name":"Commcare",
+            "name":"CommCare",
             "url":"http://www.commcarehq.org/home/"
         },
         {
@@ -234,7 +234,7 @@
         "Kurtis Heimerl, Shaddi Hasan, Kashif Ali, Eric Brewer and Tapan Parikh, <a href=\"papers/vbts_itid_15.pdf\">A Longitudinal Study of Local, Sustainable, Small-Scale Cellular Networks</a>, Information Technologies and International Development (ITID), Vol. 11, No. 1, May 2015",
         "Neil Patel, Krishna Savani, Paresh Dave, Kapil Shah, Scott R. Klemmer and Tapan S. Parikh, <a href=\"papers/1054-2951-1-PB.pdf\">Power to the Peers: Authority of Source Effects for a Voice-based Agricultural Information Service in Rural India</a>, Information Technologies and International Development (ITID), Vol. 9, No. 2, June 2013 ",
         "Anand Kulkarni, Philipp Gutheim, Prayag Narula, David Rolnitzky, Tapan Parikh and Bjoern Hartmann, <a href=\"papers/kulkarni-mobileworks-ieee2012.pdf\">MobileWorks: Designing for Quality in a Managed Crowdsourcing Architecture</a>, IEEE Internet Computing, September-October 2012",
-        "Brian DeRenzi, Gaetano Borriello, Jonathan Jackson, Vikram Sheel Kumar, Tapan S. Parikh, Pushwaz Virk and Neal Lesh, <a href=\"http://onlinelibrary.wiley.com/doi/10.1002/msj.20256/abstract\">Mobile Phone Tools for Field-Based Health care Workers in Low-Income Countries</a>, Mount Sinai Journal of Medicine, 78: 406\u2013418, May 2011",
+        "Brian DeRenzi, Gaetano Borriello, Jonathan Jackson, Vikram Sheel Kumar, Tapan S. Parikh, Pushwaz Virk and Neal Lesh, <a href=\"http://onlinelibrary.wiley.com/doi/10.1002/msj.20256/abstract\">Mobile Phone Tools for Field-Based Health care Workers in Low-Income Countries</a>, Mount Sinai Journal of Medicine, 78: 406-418, May 2011",
         "Kuang Chen, Harr Chen, Neil Conway, Joseph M. Hellerstein and Tapan S. Parikh, <a href=\"papers/tkde-usher.pdf\">Usher: Improving Data Quality with Dynamic Forms</a>, IEEE Transactions on Knowledge and Data Engineering, October 2010",
         "Tapan S. Parikh, <a href=\"papers/p54-parikh.pdf\">Engineering Rural Development: Improving the Performance and Accountability of Civil Society Organizations</a>, Communications of the ACM, Vol. 52, No. 1, January 2009",
         "<h3>Refereed Conference Proceedings</h3>",
