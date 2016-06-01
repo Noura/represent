@@ -1,0 +1,88 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta name="author" content="Kurtis Heimerl, Brian Gawalt, Kuang Chen, Bjoern Hartmann, and Tapan Parikh" />
+	<link rel="stylesheet" href="./projects.css" type="text/css" />
+	<title>Umati: The CommunitySourcing Vending Machine</title>
+</head>
+<body>
+	<div id="content">
+		<h1><a href="http://represent.org">represent</a>.org/umati</h1>
+		
+		<ul id="menu">
+			<li><a href="http://www.berkeley.edu">UC Berkeley</a></li>
+			<li><a href="http://www.cs.berkeley.edu">Computer Science</a></li>
+            <li><a href="http://bid.berkeley.edu">Berkeley Institute of Design</a></li>
+            <li><a href="http://ischool.berkeley.edu">School of Information</a></li>
+        <li> 
+		  
+		</ul>
+	
+		<div class="post">
+			<div class="details">
+				<h2><a href="#"><strong>The Umati Project</strong><br><br> Using kiosks for targeted crowdsourcing</a></h2>
+		  </div>
+			<div class="body">
+			<p>Online labor markets, such as Amazon's <a href="https://www.mturk.com/mturk/welcome">Mechanical Turk</a>, are often used to crowdsource simple, short tasks like image labeling and transcription. However, expert workers, who tend to be busy putting their knowledge to work in traditional employment, are less likely to participate in microtask systems. It can be hard to find a sizeable number of them via online labor markets. This can make it difficult to use a Turk-like platform to complete complex jobs that require specific skillsets -- which means overall low wages and impact for crowdsourcing labor markets. </p>
+
+			<p><strong>Communitysourcing</strong> helps solve this problem by <strong>bringing the crowdsourcing work to crowds of expert workers directly</strong> with kiosks that provide tasks and rewards situated within these expert's physical communities. As an example, we implemented <strong>Umati, the Communitysourcing Vending Machine,</strong> a vending kiosk with a touchscreen interface. We placed Umati within a specific community (e.g., students), provide work that fits their skill-set (e.g., grading intro-level exams), and reward them with items they find personally valuable (e.g., candy). We found that Umati was able to generate more consistent and accurate grades than those we could generate using Mechanical Turk, at less cost than paid expert graders.</p>
+			
+		  </div>
+		  <div class="x"></div>
+		</div>
+		
+		<div class="col">
+			<h3><a href="#">Paper</a></h3>
+			<p>Kurtis Heimerl, Brian Gawalt, Kuang Chen, Tapan Parikh, and Björn Hartmann. Communitysourcing: Engaging Local Crowds to Perform Expert Work Via Physical Kiosks. In <em>Proceedings of CHI 2012</em>. ACM, New York, NY, USA, 2207-2210. <br />
+		    <!--a href="http://doi.acm.org/10.1145/1978942.1979263"> --> ACM Digital Library<!--</a>--> | <a href="heimerl-umati-chi2012.pdf">Local pdf</a></p>
+			<p><strong>Talk Slides</strong>: <!--a href="hartmann-hypersource-chi2011-slides.key"-->PPT file</a> | <!--a href="hartmann-hypersource-chi2011-slides.pdf"-->pdf</a></p>
+			<iframe width="290" height="250" src="http://www.youtube.com/embed/DbsMzNWcmeU" frameborder="0" allowfullscreen></iframe><br /><br>
+            <h3><a href="">People</a></h3>
+            <a href="http://www.cs.berkeley.edu/~kheimerl">Kurtis Heimerl</a><br />
+            <a href="http://www.cs.berkeley.edu/~gawalt">Brian Gawalt</a><br />
+            <a href="http://www.cs.berkeley.edu/~kuangc">Kuang Chen</a><br />
+            <a href="http://people.ischool.berkeley.edu/~parikh/">Tapan S. Parikh</a><br />
+            <a href="http://www.cs.berkeley.edu/~bjoern">Björn Hartmann</a><br />
+            <br>
+            <a href="./fig/individual1-trans.jpg"><img src="./fig/individual1-transSmall.jpg" width=250 /></a>
+	    
+	    <br></br>
+            <h3><a href="">Press</a></h3>
+	    <p><span class="pubtitle"><a href="http://interactions.acm.org/archive/view/november-december-2012/demo-hour22">Demo Hour</a></span> <br/> ACM Interactions, December 2012 </p>
+	    <p><span class="pubtitle"><a href="http://www.technewsdaily.com/5707-hacked-vending-machine-trades-snacks-skills.html">Hacked Vending Machine Trades Snacks For Skills</a></span> <br/> Tech News Daily. April 27th, 2012 </p>
+            
+	  </div>
+		<div class="col">
+			<h3><a href="#">Implementation</a></h3>
+			<h4>Installation</h4><br>
+			<a href="./fig/loaded-machine2.jpg"><img src="./fig/loaded-machine2Small.jpg" width=250 /></a>
+		  <p>The Umati communitysourcing kiosk. The touchscreen at upper right prompts local experts for tasks and rewards workers with candy when they've performed enough labor.</p>
+		  <a href="./fig/schematic.png"><img src="./fig/schematicSmall.png" width=250 /></a>
+		  <p>A schematic view of the four major components of Umati: touchscreen interface, cardreader for worker ID, laptop brains, and the Arduino connection to the vending machine's dispensary motors.</p>
+		  
+		  	
+	  </div>
+		<div class="col last">
+			<h3><a href="#">The Grading Task</a></h3>
+			<h4>Interface</h4><br>
+		  <a href="./fig/grading2.png"><img src="./fig/grading2Small.png" width=250 /></a>
+		  <p>Folks passing by Umati (as set up outside the 306 Soda Hall auditorium in the CS department) were asked to grade exam questions: they were to read the question text, the instructor's solution guide, and a scanned copy of the student submission, then use the slider to select a score from 0 to 4 out of a possible 4 points.</p>
+			<h4>Traditional Grading Benchmark</h4>
+			<p>We enlisted a crew of ten graduate students, all with teaching experience, to grade the same sample exams. As grading is a pretty subjective activity, we chose the median expert score given to each exam item to be the ground-truth score the item "truly" deserved.</p>
+			
+			
+			<h4>Umati v. MTurk</h4>
+			<a href="./fig/agree.png"><img src="./fig/agreeSmall.png" width=250 /></a>
+			<p>Exam scores aggregated from Umati users were phenomenally likely to match the ground-truth score yielded by experts, especially when compared to workers recruited from Mechanical Turk.</p>
+			</p>
+		  <p>&nbsp;</p>
+	  </div>
+		
+		<div id="footer">
+			<p>Copyright &copy; <em>Regents of the University of California</em> &middot; css design: Luka Cvrk, <a href="http://www.solucija.com/" title="Free CSS Templates">Solucija</a></p>
+		</div>	
+	</div>
+</body>
+</html>
