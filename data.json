@@ -31,6 +31,11 @@
             "url":"http://www.cs.berkeley.edu/~kheimerl/"
         },
         {
+            "img_src":"/static/img/people/meena.jpg",
+            "name":"Meena Natarajan",
+            "url":"http://www.mee-na.com/"
+        },
+        {
             "img_src":"/static/img/people/neha.jpg",
             "name":"Neha Kumar",
             "url":"http://nehakumar.org/"
@@ -121,11 +126,6 @@
             "name":"Lucio Lopez"
         },
         {
-            "img_src":"/static/img/people/meena.jpg",
-            "name":"Meena Natarajan",
-            "url":"http://www.mee-na.com/"
-        },
-        {
             "img_src":"/static/img/people/ffff.jpeg",
             "name":"Nick Merrill",
             "url":"http://cosmopol.is"
@@ -149,6 +149,10 @@
             "img_src":"/static/img/people/taek.png",
             "name":"Seongtaek Lim",
             "url":"http://people.ischool.berkeley.edu/~stlim/"
+        },
+        {
+            "img_src":"/static/img/people/vatsala.jpg",
+            "name":"Vatsala Shrivastava"
         },
         {
             "img_src":"/static/img/people/vibhore.png",
@@ -238,6 +242,7 @@
         "Kuang Chen, Harr Chen, Neil Conway, Joseph M. Hellerstein and Tapan S. Parikh, <a href=\"papers/tkde-usher.pdf\">Usher: Improving Data Quality with Dynamic Forms</a>, IEEE Transactions on Knowledge and Data Engineering, October 2010",
         "Tapan S. Parikh, <a href=\"papers/p54-parikh.pdf\">Engineering Rural Development: Improving the Performance and Accountability of Civil Society Organizations</a>, Communications of the ACM, Vol. 52, No. 1, January 2009",
         "<h3>Refereed Conference Proceedings</h3>",
+        "Kathryn Lanouette, Sarah Van Wart and Tapan S. Parikh, <a href=\"papers/ICLS2016.pdf\">Supporting Elementary Students' Science Learning Through Data Modeling and Interactive Mapping in Local Spaces</a>, International Conference of the Learning Sciences (ICLS), June 20-24, 2016, Singapore",
         "Kurtis Heimerl, Anuvind Menon, Shaddi Hasan, Kashif Ali, Eric Brewer and Tapan Parikh, <a href=\"papers/smartphones_ictd15.pdf\">Analysis of Smartphone Adoption and Usage in a Rural Community Cellular Network</a>, Note, International Conference on Information and Communication Technologies and Development (ICTD), May 15-18, 2015, Singapore",
         "Syed Ibrahim Ghaznavi, Kurtis Heimerl, Umar Muneer, Abdullah Hamid, Kashif Ali, Tapan Parikh, Umar Saif, <a href=\"papers/rbs-dev14.pdf\">Rescue Base Station</a>, ACM Symposium on Computing for Development (DEV), December 5-6, 2014, San Jose, CA",
         "Sarah Van Wart, Sepehr Vakil and Tapan S. Parikh, <a href=\"papers/iti120-vanwart.pdf\">Apps for Social Justice: Motivating Computer Science Learning with Design and Real-World Problem Solving</a>, Conference on Innovation and Technology in Computer Science Education (ITiCSE), June 23-24, 2014, Uppsala, Sweden ",
@@ -261,6 +266,7 @@
         "Neil Patel, Sheetal Agarwal, Nitendra Rajput, Amit Nanavati, Paresh Dave and Tapan S. Parikh, <a href=\"papers/note0202-patel.pdf\">Comparative Study of Speech and Dialed Input Voice Interfaces in Rural India</a>, Note, ACM Conference on Computer-Human Interaction (CHI), April 6-9, 2009, Boston, MA",
         "Brian DeRenzi, Neal Lesh, Tapan Parikh, Clayton Sims, Marc Mitchell, Werner Maokola, Mwajuma Chemba, Yuna Hamisi, David Schellenberg and Gaetano Borriello, <a href=\"papers/chi1104-bderenzi.pdf\">e-IMCI: Improving     Pediatric Health Care in Low-Income Countries</a>, ACM Conference on Computer-Human Interaction (CHI), April 7-10, 2008, Florence, Italy",
         "<h3>Refereed Abstracts, Posters and Workshop Papers</h3>",
+        "Sarah Van Wart, Kathryn Lanouette and Tapan S. Parikh, <u>Local Ground: Supporting Data-Driven Inquiry With Youth</u>, Poster, American Educational Research Association Annual Meeting (AERA), April 8-12, 2016, Washington, DC",
         "Thomas Philip, Joseph Polman, Ben Kirshner, Tapan Parikh and Noel Enyedy, <u>Designing Learning Environments to Facilitate Equitable Change and Social Action</u>, Panel Discussion, Digital Media and Learning (DML), June 11-13, 2015, Los Angeles, CA",
         "Parmit K. Chilana, Mary P. Czerwinski, Tovi Grossman, Chris Harrison, Ranjitha Kumar, Tapan S. Parikh, and Shumin Zhai, <a href=\"papers/p823-chilana.pdf\">Technology Transfer of HCI Research Innovations: Challenges and Opportunities</a>, Panel Discussion, ACM Conference on Computer-Human Interaction, April 18-23, 2015, Seoul, Korea",
         "Sarah Van Wart and Tapan S. Parikh, <a href=\"papers/ICLS-LocalGround.pdf\">Local Ground: A Toolkit Supporting Metarepresentational Competence in Data Science</a>, Poster, International Conference of the Learning Sciences (ICLS), June 23-27, 2014, Boulder, Colorado ",
