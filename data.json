@@ -83,7 +83,7 @@
     ],
     "current_projects":[
         {
-            "desc":"Montioring Land Access for New and Aspiring Farmers",
+            "desc":"Land Access for New and Aspiring Farmers",
             "img_src":"/static/img/projects/ALBA_Berries.jpg",
             "name":"FarmView",
             "url":"http://farmview.herokuapp.com/"
