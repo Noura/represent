@@ -46,9 +46,24 @@
             "url":"http://hci.stanford.edu/neilp/"
         },
         {
+            "img_src":"/static/img/people/ffff.jpeg",
+            "name":"Nick Merrill",
+            "url":"http://cosmopol.is"
+        },
+        {
+            "img_src":"/static/img/people/noura.jpg",
+            "name":"Noura Howell",
+            "url":"http://nourahowell.com"
+        },
+        {
             "img_src":"/static/img/people/paul.jpg",
             "name":"Paul Goodman",
             "url":"https://twitter.com/pdgoodman"
+        },
+        {
+            "img_src":"/static/img/people/robert.jpg",
+            "name":"Robert On",
+            "url":"http://www.ischool.berkeley.edu/people/students/roberton"
         },
         {
             "img_src":"/static/img/people/ryan.jpg",
@@ -124,21 +139,6 @@
         {
             "img_src":"/static/img/people/lopez.jpg",
             "name":"Lucio Lopez"
-        },
-        {
-            "img_src":"/static/img/people/ffff.jpeg",
-            "name":"Nick Merrill",
-            "url":"http://cosmopol.is"
-        },
-        {
-            "img_src":"/static/img/people/noura.jpg",
-            "name":"Noura Howell",
-            "url":"http://nourahowell.com"
-        },
-        {
-            "img_src":"/static/img/people/robert.jpg",
-            "name":"Robert On",
-            "url":"http://www.ischool.berkeley.edu/people/students/roberton"
         },
         {
             "img_src":"/static/img/people/sarah.jpg",
