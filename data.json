@@ -137,6 +137,11 @@
             "name":"Kathryn Lanouette"
         },
         {
+            "img_src":"/static/img/people/kweku.jpg",
+            "name":"Kweku Opoku-Agyemang",
+            "url":"http://www.kwekuopokuagyemang.com/"
+        },
+        {
             "img_src":"/static/img/people/lopez.jpg",
             "name":"Lucio Lopez"
         },
